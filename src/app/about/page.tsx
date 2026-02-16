@@ -5,7 +5,7 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "27 years of direct marketing experience, distilled into AI-powered customer acquisition engines. Meet the strategist behind RavingFans.ai.",
+    "27 years in performance marketing. 4,000+ offers promoted. 1,200+ Amazon launches. Meet the strategist behind RavingFans.ai.",
 };
 
 export default function AboutPage() {
@@ -40,13 +40,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-4 text-base text-dark leading-relaxed">
                   <p>
-                    I&apos;m Dan Majestic. I&apos;ve spent 27 years helping businesses grow — not with theory, but with systems that actually work. Direct response marketing. Customer acquisition engines. Strategies that turn first-time buyers into lifelong advocates.
-                  </p>
-                  <p>
-                    I&apos;ve run agencies, built brands, launched hundreds of campaigns across CPG, health, tech, and e-commerce. Along the way, I discovered something most businesses miss: <span className="font-semibold text-navy">the biggest growth lever isn&apos;t getting more customers. It&apos;s turning the ones you have into raving fans.</span>
-                  </p>
-                  <p>
-                    Now I combine those 27 years of frameworks with AI execution to deliver results at a speed and precision that no traditional team can match.
+                    27 years in performance marketing. Over 4,000 offers promoted. 1,200+ Amazon launches. Multiple 8-figure exits. I&apos;ve sold everything online except the things you shouldn&apos;t sell online. Now I build AI-powered customer acquisition engines for CPG brands that want to grow exponentially, not incrementally.
                   </p>
                 </div>
               </div>
@@ -64,38 +58,32 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-5 text-base text-dark leading-relaxed">
               <p>
-                I started in direct response marketing when the internet was still a novelty. Back then, the feedback loop was brutal — if your ad didn&apos;t pull, you lost real money, real fast. That taught me to obsess over what works, not what looks pretty.
+                I started selling online in 1999, back when a banner ad click cost a nickel and nobody knew what an affiliate marketer was. From there I spent 25 years in the trenches: building campaigns for United Airlines, eHarmony, Netflix, DISH Network, and FTD, while simultaneously running my own businesses across Amazon, eBay, Walmart, and direct-to-consumer.
               </p>
               <p>
-                Over the years, I&apos;ve worked with startups, mid-market brands, and companies doing $50M+ in revenue. The pattern is always the same: the businesses that win aren&apos;t the ones with the biggest budgets. They&apos;re the ones that understand their customers deeply enough to earn their loyalty.
+                I&apos;ve personally managed product launches in some of the most heavily regulated categories on the internet — supplements, alternative medicine, health and wellness. I&apos;ve navigated FDA compliance, Amazon&apos;s ever-shifting rules, and ad platform policies that change overnight. When other marketers say &ldquo;that&apos;s too hard,&rdquo; I say &ldquo;that&apos;s where I live.&rdquo;
               </p>
               <p>
-                I built RavingFans.ai because I got tired of watching good businesses fail at growth — not because they lacked talent or products, but because they were stuck in the agency-industrial complex. Paying $15K/month for a team of juniors running playbooks they found in a blog post.
-              </p>
-              <p>
-                There&apos;s a better way. My frameworks, proven over 500+ campaigns, executed by AI agents I&apos;ve trained on my own methodology. The strategist is still human. The execution is just faster, more consistent, and never takes a sick day.
+                Along the way, I developed a framework I call the Raving Fan Progression. It&apos;s simple: instead of just chasing new customers, you nurture people at every stage — from the moment they&apos;re a complete stranger to the moment they&apos;re telling everyone they know about your product. Most businesses spend all their energy on acquisition and ignore everything after the first sale. That&apos;s like filling a bucket with holes in it.
               </p>
             </div>
           </ScrollFadeIn>
         </div>
       </section>
 
-      {/* Why AI, Why Now */}
+      {/* Why AI. Why Now. */}
       <section className="py-20 bg-warm">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFadeIn>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-dark mb-8">
-              Why AI, Why Now
+              Why AI. Why Now.
             </h2>
             <div className="space-y-5 text-base text-dark leading-relaxed">
               <p>
-                AI didn&apos;t replace marketing expertise. It amplified it. The problem with traditional agencies was never the strategy — it was the execution gap. Great ideas diluted through layers of handoffs, miscommunications, and human inconsistency.
+                In 2024, I made a bet. I started building a team of AI agents — not chatbots, not templates, but specialized agents trained on my 27 years of frameworks and methodology. An agent that writes direct response copy the way I would. An agent that builds landing pages and quiz funnels to my specs. An agent that tracks every pixel, every conversion, every dollar.
               </p>
               <p>
-                What I&apos;ve built with RavingFans.ai closes that gap entirely. I architect the strategy. My AI team executes it with perfect fidelity. Every campaign. Every piece of content. Every customer touchpoint — exactly the way it was designed.
-              </p>
-              <p>
-                The result? You get the strategic depth of a 27-year veteran with the execution speed of a team that works 24/7. At a fraction of the cost of a traditional agency.
+                The result is a boutique consultancy that operates at the speed of a large agency but with the depth and care of a one-on-one mentor. I take 3-5 clients at a time. I own each engagement personally. And my team executes 24 hours a day, 7 days a week, at a standard I&apos;ve spent decades perfecting.
               </p>
             </div>
           </ScrollFadeIn>
@@ -111,26 +99,37 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-5 text-base text-dark leading-relaxed">
               <p>
-                That the best marketing doesn&apos;t feel like marketing. It feels like someone finally <em>gets</em> you.
+                I call it Business Karma. When you&apos;re generous with the value you create — when you genuinely try to make people&apos;s lives better through your work — it compounds and comes back to you. One of my favorite proverbs says it plainly: generosity begets generosity, and stinginess impoverishes.
               </p>
               <p>
-                That a confused mind always says no — and most businesses confuse their customers with vague, committee-approved messaging that says everything and nothing at the same time.
+                That&apos;s not just philosophy. It&apos;s how I operate. I give quick wins on strategy calls before anyone has paid me a dollar. I share frameworks publicly that most consultants charge thousands for. I treat every client&apos;s business like my own — because I genuinely believe that when I make your business better, the universe takes care of the rest.
               </p>
               <p>
-                That the businesses that win long-term are the ones that earn loyalty, not just attention. Clicks are cheap. Customers who come back month after month because they believe in what you&apos;re doing — that&apos;s the real asset.
+                My 8 core values: Exceed expectations. Be a blessing. Do your absolute best. Business Karma. Generosity begets generosity. Always add value. Take care of people. Make every business better than you found it.
               </p>
               <p>
-                And that Business Karma is real. When you genuinely help people, the money follows.
+                And underneath all of them, one driving force: a sincere desire to have a significant impact on humanity at scale.
               </p>
             </div>
           </ScrollFadeIn>
+        </div>
+      </section>
 
-          <ScrollFadeIn className="mt-10">
+      {/* The Question */}
+      <section className="py-16 bg-warm">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <ScrollFadeIn>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-dark mb-6 text-center">
+              The Question I Ask Myself Every Day
+            </h2>
             <blockquote className="border-l-4 border-gold pl-6 py-2">
               <p className="text-xl sm:text-2xl font-bold text-navy italic">
-                &ldquo;A confused mind always says no.&rdquo;
+                &ldquo;Did I make your life better today?&rdquo;
               </p>
             </blockquote>
+            <p className="text-base text-dark leading-relaxed mt-6">
+              If the answer is yes — if every client, every interaction, every piece of work leaves someone better off than before — then everything else takes care of itself.
+            </p>
           </ScrollFadeIn>
         </div>
       </section>

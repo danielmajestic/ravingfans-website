@@ -5,27 +5,27 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the RavingFans.ai team — a seasoned strategist backed by AI agents trained on 27 years of proven frameworks.",
+    "Meet the RavingFans.ai team — 27 years of battle-tested marketing wisdom, amplified by an AI execution team that never sleeps.",
 };
 
 const agents = [
   {
     initial: "M",
     name: "Mat",
-    role: "Project Lead & Copy Strategist",
-    desc: "Mat manages execution timelines, writes conversion copy that sells without feeling salesy, and ensures every deliverable meets Dan's exacting standards. When strategy needs to become words, Mat makes them count.",
+    role: "Project Lead & Strategist",
+    desc: "Mat is the engine room. He translates Dan's strategy into campaign plans, writes direct response copy, synthesizes research, and keeps every project on track and on time. When a brief comes in, Mat is the first one working on it.",
   },
   {
     initial: "K",
     name: "Kat",
-    role: "Data & Systems Engineer",
-    desc: "Kat builds the backend infrastructure, analytics dashboards, and automation systems that power your growth engine. She turns data into decisions and makes sure nothing falls through the cracks.",
+    role: "Data & Systems Architect",
+    desc: "Kat makes the invisible visible. Every tracking pixel, every UTM parameter, every conversion event, every integration between platforms — that's Kat. She ensures that when we tell you something is working, we have the data to prove it.",
   },
   {
     initial: "S",
     name: "Sam",
-    role: "Design & Build Specialist",
-    desc: "Sam creates the landing pages, funnels, email templates, and visual assets that turn strategy into experience. Every pixel serves a purpose. Every page is built to convert.",
+    role: "Design & Development Lead",
+    desc: "Sam builds the things your customers actually touch. Landing pages, quiz funnels, websites, email templates — all designed mobile-first, built for speed, and optimized to convert. If it loads in under 2 seconds and looks clean, Sam built it.",
   },
 ];
 
@@ -36,10 +36,10 @@ export default function TeamPage() {
       <section className="bg-gradient-to-br from-navy-dark via-navy to-navy-light pt-32 pb-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
-            Meet the Team
+            The People Behind Your Growth
           </h1>
-          <p className="text-lg text-gray-300 max-w-xl mx-auto">
-            A strategist with 27 years of experience, backed by an AI execution team that never sleeps.
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            You&apos;re not hiring a freelancer. You&apos;re not hiring an agency with a team of juniors. You&apos;re hiring 27 years of battle-tested marketing wisdom, amplified by an AI execution team that never sleeps, never misses a detail, and operates at a pace no traditional agency can match.
           </p>
         </div>
       </section>
@@ -60,19 +60,14 @@ export default function TeamPage() {
                   <p className="text-gold font-semibold mb-4">Founder & Chief Strategist</p>
                   <div className="space-y-3 text-sm text-dark leading-relaxed">
                     <p>
-                      27 years in direct response marketing. 500+ campaigns launched. $50M+ in attributed revenue. Dan has worked with startups, mid-market brands, and companies doing $50M+ in annual revenue across CPG, health, tech, and e-commerce.
-                    </p>
-                    <p>
-                      He doesn&apos;t just consult — he architects the entire customer acquisition strategy personally. Every framework, every funnel, every touchpoint is designed by Dan and executed by his AI team with perfect fidelity.
-                    </p>
-                    <p>
-                      When you work with RavingFans.ai, Dan is in the room. Not a junior account manager. Not an intern reading from a playbook. The person who sold you is the person who does the work.
+                      Dan is the architect. Every strategy, every framework, every client engagement starts and ends with him. With 27 years of experience across performance marketing, Amazon marketplace optimization, DTC customer lifecycle engineering, and regulated product compliance, he brings pattern recognition that no algorithm can replicate. He takes a maximum of 3-5 clients at any given time because he believes you can&apos;t truly own someone&apos;s P&amp;L from a distance.
                     </p>
                   </div>
                   <div className="mt-6 flex flex-wrap gap-4 text-xs text-medium">
-                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">500+ campaigns</span>
-                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">$50M+ attributed revenue</span>
-                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">27 years direct response</span>
+                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">4,000+ offers promoted</span>
+                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">1,200+ Amazon launches</span>
+                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">Multiple 8-figure exits</span>
+                    <span className="bg-warm rounded-full px-3 py-1 border border-gray-200">25+ years in the trenches</span>
                   </div>
                 </div>
               </div>
@@ -117,16 +112,13 @@ export default function TeamPage() {
             <h2 className="text-xl font-bold text-dark mb-4 text-center">
               How Our Team Works
             </h2>
-            <p className="text-sm text-medium leading-relaxed text-center mb-6">
-              Our execution team is powered by AI agents custom-trained on Dan&apos;s 27 years of frameworks and methodology. This isn&apos;t generic AI. These agents have been trained on Dan&apos;s specific approaches to customer acquisition, conversion optimization, and brand building.
+            <p className="text-sm text-medium leading-relaxed text-center mb-4">
+              <em>Our execution team is powered by AI agents custom-trained on Dan&apos;s 27 years of frameworks and methodology. They don&apos;t guess. They don&apos;t hallucinate strategies. They execute the proven playbook Dan has refined across 4,000+ offers — faster, more precisely, and around the clock.</em>
             </p>
             <p className="text-sm text-medium leading-relaxed text-center mb-6">
-              They work around the clock, never miss a detail, and operate at a pace no traditional team can match. Dan architects the strategy. The team executes it. You get the results.
+              <em>Dan architects every strategy and makes every strategic decision personally. The team executes at a speed and consistency that no human team can match. The result: you get boutique-level strategic depth with agency-level execution capacity.</em>
             </p>
-            <p className="text-sm text-medium leading-relaxed text-center">
-              We believe transparency builds trust. That&apos;s why we&apos;re upfront about how we work — and why we think it&apos;s a genuine advantage, not something to hide.
-            </p>
-            <div className="mt-6 text-center">
+            <div className="text-center">
               <a
                 href="https://dashboard.ravingfans.ai"
                 target="_blank"

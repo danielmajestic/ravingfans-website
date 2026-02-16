@@ -4,28 +4,28 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "You're just one guy with some AI tools. How can you deliver what a full agency can't?",
-    a: "That's exactly the point. Traditional agencies have 15 people touching your account — and none of them are the person who sold you. I'm the strategist, and my AI team executes the strategy I architect. No handoffs. No telephone games. No junior account manager learning on your dime. You get 27 years of direct marketing experience applied directly to your business, with an execution team that works 24/7 and never drops the ball.",
+    q: "You're just one guy. Can you really handle our business?",
+    a: "Meet the team. I'm the strategist — the one with 27 years of pattern recognition who will personally own your engagement. Behind me is an execution team of AI agents I've personally trained on my frameworks and methodology. They work 24/7 with zero downtime, zero human error, and zero ego. You're getting the strategic depth of a senior consultant with the execution capacity of a full agency. And I cap my clients at 3-5 specifically so each one gets everything I have.",
   },
   {
-    q: "We've been burned by agencies before. Why should this be any different?",
-    a: "Because most agencies sell activity, not outcomes. They'll show you impressive dashboards full of impressions and clicks, but when you look at your bank account, nothing changed. I don't measure success in vanity metrics. I measure it in customer acquisition cost, lifetime value, and revenue. If the numbers don't move, I haven't done my job. And unlike agencies with 18-month contracts, I have to earn your business every single month.",
+    q: "We've been burned by agencies before.",
+    a: "I hear this constantly — and I understand the skepticism. Here's the difference: I own your P&L like it's mine. Ask Brad at TrueHope — I'm more committed to their profitability than some of their own team. I don't deliver reports and disappear. I embed in your business, understand your numbers, and make decisions based on what drives profit, not what looks good in a deck.",
   },
   {
-    q: "$10K a month is a lot. How do I know I'll see a return?",
-    a: "It is a lot — if it doesn't work. But let's do the math. If your average customer is worth $200 over their lifetime, you need 50 new customers per month to break even. Most of our clients see that within the first 60 days, and it compounds from there. This isn't an expense. It's an investment in a machine that generates customers while you sleep. The question isn't whether you can afford it — it's whether you can afford not to have it.",
+    q: "$10K/month is a lot.",
+    a: "What's one additional $50K revenue stream worth? You're not paying for a marketing expense — you're investing in exponential growth. And because I only take 3-5 clients, every engagement gets my full strategic attention. A full-time hire at my level is $154K+ base plus commission. You get me, my AI team, and 27 years of pattern recognition for a fraction of that. No benefits, no PTO, no ramp-up time.",
   },
   {
-    q: "Why not just hire a full-time marketing person?",
-    a: "A good marketing director costs $120K-$180K per year plus benefits — and they're still just one person who needs a team to execute. They take vacations. They have sick days. They need training. And if they leave, they take all their knowledge with them. For less than half that cost, you get a strategist with 27 years of experience backed by an AI execution team that works around the clock and never forgets a detail.",
+    q: "Why not just hire someone full-time?",
+    a: "A full-time marketing director with my experience commands $154K+ base salary. Add benefits, office space, equipment, and the 6 months it takes them to learn your business. With RavingFans.ai, you get 27 years of pattern recognition from day one, an execution team that ships in days not months, and flexibility to scale up or down based on results. No payroll overhead. No HR headaches.",
   },
   {
-    q: "Can you handle our specific industry? We're not a typical CPG brand.",
-    a: "I've worked across health supplements, specialty food, pet products, beauty, and more. The specific product changes. The principles of turning customers into raving fans don't. During our strategy call, I'll tell you honestly whether I think I can move the needle for your specific situation. If I can't, I'll tell you that too.",
+    q: "Can you handle our industry?",
+    a: "I've sold everything online except the things you shouldn't sell online. 4,000+ offers across supplements, CPG, regulated products, software, services, and more. I've navigated FDA compliance, Amazon's ever-shifting rules, and ad platform policies that change overnight. When other marketers say \"that's too hard,\" I say \"that's where I live.\"",
   },
   {
-    q: "AI can't replace real marketing expertise. This feels like hype.",
-    a: "You're right — AI alone can't replace expertise. That's why the AI isn't making the decisions. I am. I've spent 27 years building the frameworks and methodologies that drive results. The AI executes those frameworks at a speed and consistency no human team can match. Think of it this way: AI is the engine, but I'm the one who built the car and knows where to drive it. The combination is what makes this different from everything else out there.",
+    q: "AI can't replace real marketers.",
+    a: "Agreed. That's why I'm here. AI doesn't replace 27 years of experience — it amplifies it. My team is trained on my frameworks, my methodology, and my standards. They don't guess. They execute what I've proven works, faster and more precisely than any human team could. The strategy is mine. The execution is superhuman.",
   },
 ];
 
