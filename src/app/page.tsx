@@ -332,6 +332,24 @@ export default function Home() {
                   role: "Design & Development Lead",
                   desc: "Sam builds the things your customers actually touch. Landing pages, quiz funnels, websites, email templates — all designed mobile-first, built for speed, and optimized to convert. If it loads in under 2 seconds and looks clean, Sam built it.",
                 },
+                {
+                  initial: "P",
+                  name: "Pixie",
+                  role: "Creative Director & Designer",
+                  desc: "Pixie translates brand strategy into visual language that stops thumbs mid-scroll. From trade dress to ad creative to full brand identity systems — bold taste, meticulous execution, every pixel with purpose.",
+                },
+                {
+                  initial: "R",
+                  name: "Riley",
+                  role: "Content Strategist & Research Lead",
+                  desc: "Riley maps the entire competitive landscape before anyone writes a single word. ICP research, content architecture, SEO strategy, market analysis — the kind of sharp that makes everyone better.",
+                },
+                {
+                  initial: "A",
+                  name: "Alex",
+                  role: "Marketplace & Paid Media Strategist",
+                  desc: "Alex knows where every ad dollar goes and makes each one work harder. Amazon, Pinterest, Bing, native ad networks — marketplace optimization and media buying that turns ad spend into compounding revenue.",
+                },
               ].map((agent) => (
                 <div
                   key={agent.name}

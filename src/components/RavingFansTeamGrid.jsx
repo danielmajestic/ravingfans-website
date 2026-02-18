@@ -76,6 +76,16 @@ const team = [
     initials: "RM",
     image: "/images/team/riley_headshot_800x800.png",
   },
+  {
+    name: "Alex Chin",
+    nickname: "Alex",
+    title: "Marketplace & Paid Media Strategist",
+    bio: "Alex knows where every ad dollar goes \u2014 and makes each one work harder than the last. Amazon is his native language (FBA, FBM, Seller Central, Vendor Central, Amazon Ads), but he's equally lethal across Pinterest, Bing, and native ad networks. Marketplace optimization, media buying, campaign architecture \u2014 Alex turns ad spend into compounding revenue.",
+    tag: "The Amplifier",
+    accent: BRAND.gold,
+    initials: "AC",
+    image: "/images/team/alex_headshot_800x800.png",
+  },
 ];
 
 function TeamCard({ member, index }) {
