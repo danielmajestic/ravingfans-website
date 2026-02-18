@@ -293,8 +293,8 @@ export default function Home() {
           <ScrollFadeIn>
             <div className="bg-warm rounded-2xl p-6 sm:p-8 mb-8 border border-gray-200">
               <div className="flex flex-col sm:flex-row gap-6">
-                <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-xl bg-navy flex items-center justify-center flex-shrink-0">
-                  <span className="text-3xl sm:text-4xl font-bold text-gold">D</span>
+                <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden flex-shrink-0">
+                  <img src="/images/team/dan_headshot_800x800.png" alt="Dan Majestic — Founder & Chief Strategist" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-dark">Dan Majestic</h3>
@@ -315,38 +315,38 @@ export default function Home() {
             <div className="grid sm:grid-cols-3 gap-6">
               {[
                 {
-                  initial: "M",
                   name: "Mat",
+                  image: "/images/team/mat_headshot_800x800.png",
                   role: "Project Lead & Strategist",
                   desc: "Mat is the engine room. He translates Dan's strategy into campaign plans, writes direct response copy, synthesizes research, and keeps every project on track and on time. When a brief comes in, Mat is the first one working on it.",
                 },
                 {
-                  initial: "K",
                   name: "Kat",
+                  image: "/images/team/kat_headshot_800x800.png",
                   role: "Data & Systems Architect",
                   desc: "Kat makes the invisible visible. Every tracking pixel, every UTM parameter, every conversion event, every integration between platforms — that's Kat. She ensures that when we tell you something is working, we have the data to prove it.",
                 },
                 {
-                  initial: "S",
                   name: "Sam",
+                  image: "/images/team/sam_headshot_800x800.png",
                   role: "Design & Development Lead",
                   desc: "Sam builds the things your customers actually touch. Landing pages, quiz funnels, websites, email templates — all designed mobile-first, built for speed, and optimized to convert. If it loads in under 2 seconds and looks clean, Sam built it.",
                 },
                 {
-                  initial: "P",
                   name: "Pixie",
+                  image: "/images/team/pixie_headshot_800x800.png",
                   role: "Creative Director & Designer",
                   desc: "Pixie translates brand strategy into visual language that stops thumbs mid-scroll. From trade dress to ad creative to full brand identity systems — bold taste, meticulous execution, every pixel with purpose.",
                 },
                 {
-                  initial: "R",
                   name: "Riley",
+                  image: "/images/team/riley_headshot_800x800.png",
                   role: "Content Strategist & Research Lead",
                   desc: "Riley maps the entire competitive landscape before anyone writes a single word. ICP research, content architecture, SEO strategy, market analysis — the kind of sharp that makes everyone better.",
                 },
                 {
-                  initial: "A",
                   name: "Alex",
+                  image: "/images/team/alex_headshot_800x800.png",
                   role: "Marketplace & Paid Media Strategist",
                   desc: "Alex knows where every ad dollar goes and makes each one work harder. Amazon, Pinterest, Bing, native ad networks — marketplace optimization and media buying that turns ad spend into compounding revenue.",
                 },
@@ -355,8 +355,8 @@ export default function Home() {
                   key={agent.name}
                   className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center"
                 >
-                  <div className="w-14 h-14 mx-auto mb-3 rounded-full bg-navy flex items-center justify-center">
-                    <span className="text-lg font-bold text-gold">{agent.initial}</span>
+                  <div className="w-14 h-14 mx-auto mb-3 rounded-full overflow-hidden">
+                    <img src={agent.image} alt={`${agent.name} — ${agent.role}`} className="w-full h-full object-cover" />
                   </div>
                   <h3 className="font-bold text-dark">{agent.name}</h3>
                   <p className="text-xs text-gold font-semibold mb-2">{agent.role}</p>
