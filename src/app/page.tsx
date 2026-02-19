@@ -1,6 +1,27 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import FAQ from "@/components/FAQ";
+
+export const metadata: Metadata = {
+  title: "RavingFans.ai — AI-Powered Customer Acquisition for CPG Brands",
+  description:
+    "We build AI-powered customer acquisition engines that don't just find your customers — they transform them into Raving Fans. For CPG brands doing $3M+ who are ready for exponential growth.",
+  openGraph: {
+    title: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
+    description:
+      "AI-powered customer acquisition engines for CPG brands doing $3M+. Quiz funnels, multi-platform ads, email sequences — built for exponential growth.",
+    url: "https://www.ravingfans.ai",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "RavingFans.ai — We Turn Your Customers Into Raving Fans" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
+    description:
+      "AI-powered customer acquisition engines. Turn strangers into Raving Fans.",
+    images: ["/opengraph-image"],
+  },
+};
 
 const stages = [
   {

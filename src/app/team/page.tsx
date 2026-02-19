@@ -2,9 +2,23 @@ import type { Metadata } from "next";
 import RavingFansTeamGrid from "@/components/RavingFansTeamGrid";
 
 export const metadata: Metadata = {
-  title: "Team",
+  title: "Our Team",
   description:
     "Meet the RavingFans.ai team — 27 years of battle-tested marketing wisdom, amplified by an AI execution team that never sleeps.",
+  openGraph: {
+    title: "The Team | RavingFans.ai",
+    description:
+      "A 27-year veteran strategist backed by an AI execution team that works around the clock. Boutique-level strategy. Agency-level execution.",
+    url: "https://www.ravingfans.ai/team",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "The RavingFans.ai Team" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Team | RavingFans.ai",
+    description:
+      "A 27-year veteran strategist backed by an AI execution team that never sleeps.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function TeamPage() {

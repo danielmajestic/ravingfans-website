@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   title: "Our Process",
   description:
     "Five stages. Zero guesswork. A proven system that works every time. See how RavingFans.ai builds your customer acquisition engine.",
+  openGraph: {
+    title: "Our Process | RavingFans.ai",
+    description:
+      "Research → Foundation → Structure → Build → Optimize. Five stages. Zero guesswork. Most agencies skip to step 4 — we don't.",
+    url: "https://www.ravingfans.ai/process",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Our Process — RavingFans.ai" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Process | RavingFans.ai",
+    description:
+      "Five stages. Zero guesswork. See how we build customer acquisition engines.",
+    images: ["/opengraph-image"],
+  },
 };
 
 const stages = [
