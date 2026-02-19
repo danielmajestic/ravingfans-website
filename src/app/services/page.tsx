@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "AI-powered customer acquisition engines built for you, managed for you, optimized continuously. For CPG brands doing $3M+ in annual revenue.",
+  openGraph: {
+    title: "Services | RavingFans.ai",
+    description:
+      "Quiz funnels, multi-platform ad campaigns, email sequences, Amazon growth, and ongoing optimization. Everything you need to turn strangers into Raving Fans.",
+    url: "https://www.ravingfans.ai/services",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Services — RavingFans.ai" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Services | RavingFans.ai",
+    description:
+      "AI-powered customer acquisition engines built for CPG brands doing $3M+.",
+    images: ["/opengraph-image"],
+  },
 };
 
 const services = [

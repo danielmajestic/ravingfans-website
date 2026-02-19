@@ -18,13 +18,29 @@ export const metadata: Metadata = {
   },
   description:
     "We turn your customers into raving fans. AI-powered customer acquisition engines for CPG brands that want exponential growth.",
+  metadataBase: new URL("https://www.ravingfans.ai"),
   openGraph: {
     title: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
     description:
       "AI-powered customer acquisition engines for CPG brands that want exponential growth — not incremental.",
-    url: "https://ravingfans.ai",
+    url: "https://www.ravingfans.ai",
     siteName: "RavingFans.ai",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
+    description:
+      "AI-powered customer acquisition engines for CPG brands that want exponential growth.",
+    images: ["/opengraph-image"],
   },
 };
 
@@ -89,6 +105,7 @@ gtag('js',new Date());gtag('config','G-X0X47QP578');`,
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(c,l,a,r,i,t,y){
+if(c[a]){return;}
 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);

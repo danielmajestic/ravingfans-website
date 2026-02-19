@@ -3,9 +3,23 @@ import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Dan Majestic",
   description:
     "27 years in performance marketing. 4,000+ offers promoted. 1,200+ Amazon launches. Meet the strategist behind RavingFans.ai.",
+  openGraph: {
+    title: "About Dan Majestic | RavingFans.ai",
+    description:
+      "27 years. 4,000+ offers. 1,200+ Amazon launches. The strategist who made every business he touched better — and can do the same for yours.",
+    url: "https://www.ravingfans.ai/about",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "About Dan Majestic — RavingFans.ai" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Dan Majestic | RavingFans.ai",
+    description:
+      "27 years. 4,000+ offers. 1,200+ Amazon launches. Meet the strategist behind RavingFans.ai.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function AboutPage() {
