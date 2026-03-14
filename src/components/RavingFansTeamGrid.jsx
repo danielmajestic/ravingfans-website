@@ -86,6 +86,16 @@ const team = [
     initials: "AC",
     image: "/images/team/alex_headshot_800x800.png",
   },
+  {
+    name: "Sophia",
+    nickname: "Sophia",
+    title: "Chief Customer Success Manager",
+    bio: "Sophia is the frontline. Every customer question, every support ticket, every \"how do I\u2026\" gets answered with the patience of a teacher and the precision of someone who actually knows the product inside and out. She speaks fluent Amazon seller, resolves issues before they escalate, and treats every interaction like it\u2019s the one that earns a five-star review.",
+    tag: "The Champion",
+    accent: BRAND.navyLight,
+    initials: "S",
+    image: "/images/team/sophia_headshot_800x800.png",
+  },
 ];
 
 function TeamCard({ member, index }) {
