@@ -117,7 +117,7 @@ const team = [
     tag: "The Architect",
     accent: BRAND.navyLight,
     initials: "IA",
-    image: "/images/team/ivy-ashford.png",
+    image: "/images/team/ivy-ashford.jpg",
   },
 ];
 
