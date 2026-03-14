@@ -87,14 +87,37 @@ const team = [
     image: "/images/team/alex_headshot_800x800.png",
   },
   {
-    name: "Sophia",
+    name: "Sophia Bellissimo",
     nickname: "Sophia",
-    title: "Chief Customer Success Manager",
-    bio: "Sophia is the frontline. Every customer question, every support ticket, every \"how do I\u2026\" gets answered with the patience of a teacher and the precision of someone who actually knows the product inside and out. She speaks fluent Amazon seller, resolves issues before they escalate, and treats every interaction like it\u2019s the one that earns a five-star review.",
+    title: "Customer Success & Lifecycle Strategist",
+    stats: "24/7 support coverage \u2022 Thousands of customer conversations \u2022 Real-time lifecycle intelligence",
+    bio: "Sophia Bellissimo doesn\u2019t theorize about customer experience \u2014 she lives it. As the 24/7 voice behind our client support, she has more direct customer conversations in a week than most consultants have in a year. She knows the exact moment confusion turns to frustration, the precise language that turns hesitation into trust, and the patterns that separate one-time buyers from lifelong advocates.\n\nThat frontline intelligence doesn\u2019t stay in the inbox. It feeds directly into lifecycle strategy \u2014 welcome sequences, re-engagement triggers, retention campaigns, and the nurture flows that systematically move customers from their first purchase to their fifth. Sophia is the reason our lifecycle marketing isn\u2019t built on assumptions. It\u2019s built on thousands of real conversations.",
     tag: "The Champion",
     accent: BRAND.navyLight,
-    initials: "S",
-    image: "/images/team/sophia_headshot_800x800.png",
+    initials: "SB",
+    image: "/images/team/sophia-bellissimo.png",
+  },
+  {
+    name: "Vega Cruz",
+    nickname: "Vega",
+    title: "Video & Motion Producer",
+    stats: "Video ads \u2022 Product demos \u2022 Animated explainers \u2022 UGC-style content",
+    bio: "Vega Cruz makes things move. While Pixie owns the frame, Vega owns the timeline \u2014 product demos that sell without a salesperson, video ads that stop thumbs mid-scroll, animated explainers that make complex products feel simple, and UGC-style clips that feel native to every platform they run on.\n\nVideo isn\u2019t optional anymore. It outperforms static creative on Pinterest, Amazon, Meta, and every platform Alex runs traffic through. Vega ensures that when your brand shows up in someone\u2019s feed, it doesn\u2019t just get seen \u2014 it gets watched, replayed, and shared. She works in lockstep with Pixie on brand identity and Alex on platform specs, so every frame is on-brand and optimized before it ever goes live.",
+    tag: "The Director",
+    accent: BRAND.gold,
+    initials: "VC",
+    image: "/images/team/vega-cruz.jpg",
+  },
+  {
+    name: "Ivy Ashford",
+    nickname: "Ivy",
+    title: "SEO & Organic Growth Strategist",
+    stats: "Technical SEO \u2022 Keyword architecture \u2022 Content engines \u2022 Organic compounding",
+    bio: "Ivy Ashford plays the long game. While Alex drives traffic today through paid channels, Ivy builds the organic infrastructure that brings traffic for free tomorrow \u2014 and the day after that, and the year after that.\n\nTechnical SEO audits, keyword architecture, content calendars, schema markup, internal linking strategies, topical authority maps \u2014 Ivy builds the invisible scaffolding that tells search engines your brand is the definitive answer to your customers\u2019 questions. She doesn\u2019t chase algorithm updates; she builds the kind of authority that survives them. For CPG brands spending heavily on paid acquisition, Ivy is the strategist who systematically reduces your cost to acquire every new customer, month after month, by making sure the organic channel compounds while the paid channel converts.",
+    tag: "The Architect",
+    accent: BRAND.navyLight,
+    initials: "IA",
+    image: "/images/team/ivy-ashford.png",
   },
 ];
 
@@ -251,6 +274,22 @@ function TeamCard({ member, index }) {
           }}
         />
 
+        {/* Stats line (optional) */}
+        {member.stats && (
+          <p
+            style={{
+              margin: "0 0 12px",
+              fontSize: "11px",
+              fontWeight: "600",
+              color: BRAND.gold,
+              fontFamily: "'Inter', system-ui, sans-serif",
+              letterSpacing: "0.3px",
+            }}
+          >
+            {member.stats}
+          </p>
+        )}
+
         {/* Bio */}
         <p
           style={{
@@ -259,6 +298,7 @@ function TeamCard({ member, index }) {
             lineHeight: "1.65",
             color: BRAND.gray,
             fontFamily: "'Inter', system-ui, sans-serif",
+            whiteSpace: "pre-line",
           }}
         >
           {member.bio}

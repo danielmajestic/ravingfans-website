@@ -41,11 +41,12 @@ export default function AboutPage() {
           <ScrollFadeIn>
             <div className="flex flex-col md:flex-row gap-10 items-start">
               <div className="w-full md:w-64 flex-shrink-0">
-                <div className="aspect-[3/4] bg-navy rounded-2xl flex items-center justify-center">
-                  <div className="text-center">
-                    <span className="text-5xl font-bold text-gold">D</span>
-                    <p className="text-xs text-gray-400 mt-2">Photo placeholder</p>
-                  </div>
+                <div className="aspect-[3/4] bg-navy rounded-2xl overflow-hidden">
+                  <img
+                    src="/images/team/dan_headshot_800x800.png"
+                    alt="Dan Majestic"
+                    style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }}
+                  />
                 </div>
               </div>
               <div>

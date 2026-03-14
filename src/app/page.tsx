@@ -172,43 +172,48 @@ export default function Home() {
           </ScrollFadeIn>
 
           <ScrollFadeIn>
-            {/* Desktop: horizontal */}
-            <div className="hidden md:flex items-start justify-between gap-2">
-              {stages.map((stage, i) => (
-                <div key={stage.label} className="flex-1 text-center relative">
-                  <div
-                    className="w-12 h-12 mx-auto rounded-full flex items-center justify-center text-white font-bold text-sm mb-3"
-                    style={{
-                      background: `linear-gradient(135deg, #1B2A4A ${100 - i * 20}%, #C8962E ${i * 20}%)`,
-                    }}
-                  >
-                    {i + 1}
-                  </div>
-                  <h3 className="font-bold text-dark text-sm mb-1">{stage.label}</h3>
-                  <p className="text-xs text-medium leading-snug">{stage.desc}</p>
-                  {i < stages.length - 1 && (
-                    <div className="absolute top-6 left-[calc(50%+28px)] w-[calc(100%-56px)] h-0.5 bg-gradient-to-r from-navy to-gold opacity-30" />
-                  )}
-                </div>
-              ))}
+            {/* Journey SVG graphic */}
+            <div className="mb-10 overflow-x-auto">
+              <svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" style={{maxWidth:"680px",margin:"0 auto",display:"block"}}>
+                <path d="M56 310 L156 266 L268 222 L380 178 L490 134 L600 82" fill="none" stroke="#D6D4CC" strokeWidth="2" strokeLinecap="round"/>
+                <circle cx="56" cy="310" r="18" fill="#E8E6E0" stroke="#B4B2A9" strokeWidth="1"/>
+                <text x="56" y="310" textAnchor="middle" fontSize="18" fill="#888780" fontWeight="500" dominantBaseline="central">?</text>
+                <text x="56" y="345" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Suspect</text>
+                <text x="56" y="359" textAnchor="middle" fontSize="10" fill="#888780">Don&apos;t know you</text>
+                <circle cx="156" cy="266" r="20" fill="#F0EBD9" stroke="#A08C4E" strokeWidth="1"/>
+                <text x="156" y="266" textAnchor="middle" fontSize="14" fill="#8A7A50" fontWeight="500" dominantBaseline="central">&#x1F441;</text>
+                <text x="156" y="302" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Prospect</text>
+                <text x="156" y="316" textAnchor="middle" fontSize="10" fill="#888780">Clicked</text>
+                <circle cx="268" cy="222" r="22" fill="#EDE5C8" stroke="#B89D48" strokeWidth="1.2"/>
+                <text x="268" y="222" textAnchor="middle" fontSize="17" fill="#8A7A50" fontWeight="500" dominantBaseline="central">&#x2713;</text>
+                <text x="268" y="260" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Customer</text>
+                <text x="268" y="274" textAnchor="middle" fontSize="10" fill="#888780">Bought once</text>
+                <circle cx="380" cy="178" r="24" fill="#E8D9A8" stroke="#C9A54E" strokeWidth="1.5"/>
+                <text x="380" y="178" textAnchor="middle" fontSize="18" fill="#8A7A50" fontWeight="500" dominantBaseline="central">&#x2665;</text>
+                <text x="380" y="218" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Fan</text>
+                <text x="380" y="232" textAnchor="middle" fontSize="10" fill="#888780">Keeps coming back</text>
+                <circle cx="490" cy="134" r="26" fill="#DCC87E" stroke="#C9A54E" strokeWidth="1.5"/>
+                <text x="490" y="134" textAnchor="middle" fontSize="18" fill="#6B5A2E" fontWeight="500" dominantBaseline="central">&#x25C6;</text>
+                <text x="490" y="176" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Evangelist</text>
+                <text x="490" y="190" textAnchor="middle" fontSize="10" fill="#888780">Tells everyone</text>
+                <circle cx="600" cy="82" r="30" fill="#C9A54E" stroke="#A08C4E" strokeWidth="2"/>
+                <line x1="600" y1="48" x2="600" y2="36" stroke="#C9A54E" strokeWidth="1.5" opacity="0.5"/>
+                <line x1="624" y1="58" x2="632" y2="48" stroke="#C9A54E" strokeWidth="1.5" opacity="0.5"/>
+                <line x1="632" y1="82" x2="644" y2="82" stroke="#C9A54E" strokeWidth="1.5" opacity="0.5"/>
+                <line x1="576" y1="58" x2="568" y2="48" stroke="#C9A54E" strokeWidth="1.5" opacity="0.5"/>
+                <line x1="568" y1="82" x2="556" y2="82" stroke="#C9A54E" strokeWidth="1.5" opacity="0.5"/>
+                <text x="600" y="82" textAnchor="middle" fontSize="16" fill="#1B2A3D" fontWeight="700" dominantBaseline="central">&#x2605;</text>
+                <text x="600" y="128" textAnchor="middle" fontSize="13" fontWeight="500" fill="#C9A54E">Raving Fan</text>
+                <text x="600" y="142" textAnchor="middle" fontSize="10" fill="#888780">Your mission is theirs</text>
+              </svg>
             </div>
 
-            {/* Mobile: vertical */}
-            <div className="md:hidden space-y-6">
-              {stages.map((stage, i) => (
-                <div key={stage.label} className="flex items-start gap-4">
-                  <div
-                    className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
-                    style={{
-                      background: `linear-gradient(135deg, #1B2A4A ${100 - i * 20}%, #C8962E ${i * 20}%)`,
-                    }}
-                  >
-                    {i + 1}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-dark text-sm">{stage.label}</h3>
-                    <p className="text-xs text-medium leading-relaxed">{stage.desc}</p>
-                  </div>
+            {/* Stage descriptions */}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {stages.map((stage) => (
+                <div key={stage.label} className="bg-warm rounded-xl p-4 border border-gray-100">
+                  <h3 className="font-bold text-dark text-sm mb-1">{stage.label}</h3>
+                  <p className="text-xs text-medium leading-snug">{stage.desc}</p>
                 </div>
               ))}
             </div>
@@ -302,10 +307,10 @@ export default function Home() {
           <ScrollFadeIn>
             <div className="text-center mb-14">
               <h2 className="text-3xl sm:text-4xl font-extrabold text-dark mb-4">
-                The People Behind Your Transformation
+                The &ldquo;People&rdquo; Behind Your Transformation
               </h2>
               <p className="text-lg text-medium max-w-2xl mx-auto">
-                You&apos;re not hiring a freelancer. You&apos;re not hiring an agency with a team of juniors learning on your dime. You&apos;re getting a 27-year veteran strategist who takes your P&amp;L personally — backed by an execution team that works around the clock with precision no human team can match.
+                You&apos;re not hiring a freelancer. You&apos;re not hiring an agency with a team of juniors learning on your dime. You&apos;re getting a 27-year veteran strategist who takes your P&amp;L personally — backed by an execution team of 9 that works around the clock with precision no human team can match.
               </p>
             </div>
           </ScrollFadeIn>
@@ -371,6 +376,24 @@ export default function Home() {
                   role: "Marketplace & Paid Media Strategist",
                   desc: "Alex knows where every ad dollar goes and makes each one work harder. Amazon, Pinterest, Bing, native ad networks — marketplace optimization and media buying that turns ad spend into compounding revenue.",
                 },
+                {
+                  name: "Sophia",
+                  image: "/images/team/sophia-bellissimo.png",
+                  role: "Customer Success & Lifecycle Strategist",
+                  desc: "Sophia lives on the front lines. As the voice behind our support chat, she talks to your customers every single day — she knows what confuses them, what delights them, and exactly where they get stuck. That 24/7 frontline intelligence feeds directly into lifecycle strategy, nurture flows, and the retention plays that turn first-time buyers into raving fans.",
+                },
+                {
+                  name: "Vega",
+                  image: "/images/team/vega-cruz.jpg",
+                  role: "Video & Motion Producer",
+                  desc: "Vega turns static strategy into content that moves — literally. Product demos, video ads, animated explainers, UGC-style clips — if it plays and converts, Vega made it. In a world where video outperforms every other format on every platform, she\u2019s the reason your brand doesn\u2019t just get seen \u2014 it gets watched.",
+                },
+                {
+                  name: "Ivy",
+                  image: "/images/team/ivy-ashford.png",
+                  role: "SEO & Organic Growth Strategist",
+                  desc: "Ivy builds the growth that doesn\u2019t stop when you stop paying for it. Technical audits, keyword architecture, content engines, on-page optimization \u2014 the organic infrastructure that compounds month over month. While Alex drives traffic today, Ivy is planting the seeds that bring it for free tomorrow.",
+                },
               ].map((agent) => (
                 <div
                   key={agent.name}
@@ -392,10 +415,10 @@ export default function Home() {
             <div className="border-t border-gray-200 pt-6">
               <p className="text-xs font-bold text-dark mb-2 text-center">How Our Team Works</p>
               <p className="text-xs text-medium leading-relaxed text-center max-w-3xl mx-auto mb-3">
-                <em>Our execution team is powered by AI agents custom-trained on Dan&apos;s 27 years of frameworks and methodology. They don&apos;t guess. They don&apos;t hallucinate strategies. They execute the proven playbook Dan has refined across 4,000+ offers — faster, more precisely, and around the clock.</em>
+                <em>Dan leads a 10-person team: himself plus 9 AI agents custom-trained on his 27 years of frameworks and methodology. They don&apos;t guess. They don&apos;t hallucinate strategies. They execute the proven playbook Dan has refined across 4,000+ offers — faster, more precisely, and around the clock.</em>
               </p>
               <p className="text-xs text-medium leading-relaxed text-center max-w-3xl mx-auto mb-3">
-                <em>Dan architects every strategy and makes every strategic decision personally. The team executes at a speed and consistency that no human team can match. The result: you get boutique-level strategic depth with agency-level execution capacity.</em>
+                <em>Dan architects every strategy and makes every strategic decision personally. The 9-agent team executes at a speed and consistency that no human team can match. The result: you get boutique-level strategic depth with agency-level execution capacity.</em>
               </p>
               <p className="text-xs text-center">
                 <a
@@ -420,6 +443,62 @@ export default function Home() {
               <h2 className="text-3xl sm:text-4xl font-extrabold text-dark mb-4">
                 Five Stages. Zero Guesswork.
               </h2>
+            </div>
+          </ScrollFadeIn>
+
+          <ScrollFadeIn>
+            {/* Gears process graphic */}
+            <div className="mb-10 overflow-x-auto">
+              <svg width="100%" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" style={{maxWidth:"680px",margin:"0 auto",display:"block"}}>
+                <circle cx="72" cy="130" r="34" fill="#F0EBD9" stroke="#A08C4E" strokeWidth="1"/>
+                <rect x="64" y="92" width="16" height="7" rx="2" fill="#A08C4E" opacity="0.4"/>
+                <rect x="64" y="161" width="16" height="7" rx="2" fill="#A08C4E" opacity="0.4"/>
+                <rect x="34" y="122" width="7" height="16" rx="2" fill="#A08C4E" opacity="0.4"/>
+                <rect x="103" y="122" width="7" height="16" rx="2" fill="#A08C4E" opacity="0.4"/>
+                <circle cx="72" cy="130" r="13" fill="#E8E2CE" stroke="#A08C4E" strokeWidth="0.5"/>
+                <text x="72" y="130" textAnchor="middle" fontSize="13" fontWeight="500" fill="#6B5A2E" dominantBaseline="central">1</text>
+                <text x="72" y="180" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Research</text>
+                <line x1="108" y1="128" x2="128" y2="126" stroke="#C9A54E" strokeWidth="0.8" opacity="0.3" strokeDasharray="3 3"/>
+                <circle cx="196" cy="126" r="38" fill="#EDE5C8" stroke="#B89D48" strokeWidth="1.2"/>
+                <rect x="187" y="84" width="18" height="8" rx="2" fill="#B89D48" opacity="0.4"/>
+                <rect x="187" y="160" width="18" height="8" rx="2" fill="#B89D48" opacity="0.4"/>
+                <rect x="154" y="117" width="8" height="18" rx="2" fill="#B89D48" opacity="0.4"/>
+                <rect x="230" y="117" width="8" height="18" rx="2" fill="#B89D48" opacity="0.4"/>
+                <circle cx="196" cy="126" r="15" fill="#E2D8B4" stroke="#B89D48" strokeWidth="0.5"/>
+                <text x="196" y="126" textAnchor="middle" fontSize="14" fontWeight="500" fill="#6B5A2E" dominantBaseline="central">2</text>
+                <text x="196" y="180" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Foundation</text>
+                <line x1="236" y1="124" x2="262" y2="122" stroke="#C9A54E" strokeWidth="0.8" opacity="0.3" strokeDasharray="3 3"/>
+                <circle cx="332" cy="122" r="42" fill="#E8D9A8" stroke="#C9A54E" strokeWidth="1.5"/>
+                <rect x="322" y="76" width="20" height="9" rx="2" fill="#C9A54E" opacity="0.4"/>
+                <rect x="322" y="160" width="20" height="9" rx="2" fill="#C9A54E" opacity="0.4"/>
+                <rect x="286" y="112" width="9" height="20" rx="2" fill="#C9A54E" opacity="0.4"/>
+                <rect x="370" y="112" width="9" height="20" rx="2" fill="#C9A54E" opacity="0.4"/>
+                <circle cx="332" cy="122" r="17" fill="#DCC87E" stroke="#C9A54E" strokeWidth="0.5"/>
+                <text x="332" y="122" textAnchor="middle" fontSize="15" fontWeight="500" fill="#5A4A22" dominantBaseline="central">3</text>
+                <text x="332" y="180" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Structure</text>
+                <line x1="376" y1="120" x2="404" y2="118" stroke="#C9A54E" strokeWidth="0.8" opacity="0.3" strokeDasharray="3 3"/>
+                <circle cx="474" cy="118" r="46" fill="#DCC87E" stroke="#C9A54E" strokeWidth="1.5"/>
+                <rect x="463" y="68" width="22" height="10" rx="3" fill="#C9A54E" opacity="0.45"/>
+                <rect x="463" y="160" width="22" height="10" rx="3" fill="#C9A54E" opacity="0.45"/>
+                <rect x="424" y="107" width="10" height="22" rx="3" fill="#C9A54E" opacity="0.45"/>
+                <rect x="516" y="107" width="10" height="22" rx="3" fill="#C9A54E" opacity="0.45"/>
+                <circle cx="474" cy="118" r="19" fill="#D0B85C" stroke="#B89D48" strokeWidth="0.5"/>
+                <text x="474" y="118" textAnchor="middle" fontSize="16" fontWeight="500" fill="#4A3C18" dominantBaseline="central">4</text>
+                <text x="474" y="180" textAnchor="middle" fontSize="12" fontWeight="500" fill="#1B2A3D">Build</text>
+                <line x1="522" y1="116" x2="546" y2="114" stroke="#C9A54E" strokeWidth="0.8" opacity="0.3" strokeDasharray="3 3"/>
+                <circle cx="608" cy="114" r="42" fill="#C9A54E" stroke="#A08C4E" strokeWidth="2"/>
+                <rect x="598" y="68" width="20" height="9" rx="2" fill="#A08C4E" opacity="0.6"/>
+                <rect x="598" y="152" width="20" height="9" rx="2" fill="#A08C4E" opacity="0.6"/>
+                <rect x="562" y="104" width="9" height="20" rx="2" fill="#A08C4E" opacity="0.6"/>
+                <rect x="646" y="104" width="9" height="20" rx="2" fill="#A08C4E" opacity="0.6"/>
+                <circle cx="608" cy="114" r="16" fill="#B89D48" stroke="#8A7A50" strokeWidth="0.5"/>
+                <text x="608" y="114" textAnchor="middle" fontSize="15" fontWeight="500" fill="#F0EBD9" dominantBaseline="central">5</text>
+                <line x1="608" y1="60" x2="608" y2="52" stroke="#C9A54E" strokeWidth="1.2" opacity="0.4"/>
+                <line x1="640" y1="78" x2="646" y2="72" stroke="#C9A54E" strokeWidth="1.2" opacity="0.4"/>
+                <line x1="576" y1="78" x2="570" y2="72" stroke="#C9A54E" strokeWidth="1.2" opacity="0.4"/>
+                <text x="608" y="174" textAnchor="middle" fontSize="12" fontWeight="500" fill="#C9A54E">Optimize</text>
+                <text x="340" y="220" textAnchor="middle" fontSize="12" fill="#888780" fontStyle="italic">Each phase drives the next — nothing runs in isolation</text>
+              </svg>
             </div>
           </ScrollFadeIn>
 
