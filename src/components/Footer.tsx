@@ -39,6 +39,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/tools" className="text-gray-400 text-sm hover:text-white transition-colors">
+                  Tools
+                </Link>
+              </li>
+              <li>
                 <Link href="/call" className="text-gray-400 text-sm hover:text-white transition-colors">
                   Book a Call
                 </Link>
