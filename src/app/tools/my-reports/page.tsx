@@ -127,6 +127,9 @@ export default function MyReportsDashboard() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
+  const [dateFrom, setDateFrom] = useState("");
+  const [dateTo, setDateTo] = useState("");
+  const [editingTagsId, setEditingTagsId] = useState<string | null>(null);
   const pageSize = 20;
 
   // Fetch (mock)
@@ -161,6 +164,15 @@ export default function MyReportsDashboard() {
 
     if (sourceFilter !== "All") {
       result = result.filter((r) => r.tags?.source === sourceFilter);
+    }
+
+    if (dateFrom) {
+      const from = new Date(dateFrom).getTime();
+      result = result.filter((r) => new Date(r.generatedAt).getTime() >= from);
+    }
+    if (dateTo) {
+      const to = new Date(dateTo).getTime() + 86400000; // end of day
+      result = result.filter((r) => new Date(r.generatedAt).getTime() < to);
     }
 
     switch (sort) {
@@ -302,6 +314,26 @@ export default function MyReportsDashboard() {
               </select>
             </div>
 
+            <div className="flex items-center gap-1.5">
+              <label className="text-xs text-gray-500">From:</label>
+              <input
+                type="date"
+                value={dateFrom}
+                onChange={(e) => { setDateFrom(e.target.value); setCurrentPage(1); }}
+                className="text-sm border border-gray-200 rounded-lg px-2 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+              />
+            </div>
+
+            <div className="flex items-center gap-1.5">
+              <label className="text-xs text-gray-500">To:</label>
+              <input
+                type="date"
+                value={dateTo}
+                onChange={(e) => { setDateTo(e.target.value); setCurrentPage(1); }}
+                className="text-sm border border-gray-200 rounded-lg px-2 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+              />
+            </div>
+
             <div className="flex items-center gap-1.5 ml-auto">
               <label className="text-xs text-gray-500">Sort:</label>
               <select
@@ -393,8 +425,10 @@ export default function MyReportsDashboard() {
                         gradeColor={gradeColor}
                         date={date}
                         copiedId={copiedId}
+                        editingTagsId={editingTagsId}
                         onToggle={() => setExpandedId(isExpanded ? null : report.reportId)}
                         onCopyShare={handleCopyShareLink}
+                        onEditTags={setEditingTagsId}
                       />
                     );
                   })}
@@ -421,8 +455,10 @@ export default function MyReportsDashboard() {
                     gradeColor={gradeColor}
                     date={date}
                     copiedId={copiedId}
+                    editingTagsId={editingTagsId}
                     onToggle={() => setExpandedId(isExpanded ? null : report.reportId)}
                     onCopyShare={handleCopyShareLink}
+                    onEditTags={setEditingTagsId}
                   />
                 );
               })}
@@ -475,10 +511,10 @@ export default function MyReportsDashboard() {
 // -- Subcomponents --
 
 function TableRow({
-  report, isExpanded, gradeColor, date, copiedId, onToggle, onCopyShare,
+  report, isExpanded, gradeColor, date, copiedId, editingTagsId, onToggle, onCopyShare, onEditTags,
 }: {
   report: ReportSummary; isExpanded: boolean; gradeColor: string; date: string;
-  copiedId: string | null; onToggle: () => void; onCopyShare: (id: string) => void;
+  copiedId: string | null; editingTagsId: string | null; onToggle: () => void; onCopyShare: (id: string) => void; onEditTags: (id: string | null) => void;
 }) {
   return (
     <>
@@ -530,7 +566,7 @@ function TableRow({
       {isExpanded && (
         <tr>
           <td colSpan={7} className="px-4 py-4 bg-gray-50/80">
-            <ExpandedDetail report={report} copiedId={copiedId} onCopyShare={onCopyShare} />
+            <ExpandedDetail report={report} copiedId={copiedId} onCopyShare={onCopyShare} editingTagsId={editingTagsId} onEditTags={onEditTags} />
           </td>
         </tr>
       )}
@@ -539,10 +575,10 @@ function TableRow({
 }
 
 function MobileCard({
-  report, isExpanded, gradeColor, date, copiedId, onToggle, onCopyShare,
+  report, isExpanded, gradeColor, date, copiedId, editingTagsId, onToggle, onCopyShare, onEditTags,
 }: {
   report: ReportSummary; isExpanded: boolean; gradeColor: string; date: string;
-  copiedId: string | null; onToggle: () => void; onCopyShare: (id: string) => void;
+  copiedId: string | null; editingTagsId: string | null; onToggle: () => void; onCopyShare: (id: string) => void; onEditTags: (id: string | null) => void;
 }) {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
@@ -576,7 +612,7 @@ function MobileCard({
 
       {isExpanded && (
         <div className="px-4 pb-4 border-t border-gray-100 pt-3">
-          <ExpandedDetail report={report} copiedId={copiedId} onCopyShare={onCopyShare} />
+          <ExpandedDetail report={report} copiedId={copiedId} onCopyShare={onCopyShare} editingTagsId={editingTagsId} onEditTags={onEditTags} />
         </div>
       )}
     </div>
@@ -584,9 +620,10 @@ function MobileCard({
 }
 
 function ExpandedDetail({
-  report, copiedId, onCopyShare,
+  report, copiedId, onCopyShare, editingTagsId, onEditTags,
 }: {
   report: ReportSummary; copiedId: string | null; onCopyShare: (id: string) => void;
+  editingTagsId: string | null; onEditTags: (id: string | null) => void;
 }) {
   return (
     <div>
@@ -649,13 +686,94 @@ function ExpandedDetail({
           View Report
         </Link>
         <button
+          className="px-3 py-1.5 rounded-lg text-xs font-semibold text-white transition-colors opacity-60 cursor-not-allowed"
+          style={{ background: "#1B2A4A" }}
+          title="PDF download available when API is connected"
+        >
+          Download PDF
+        </button>
+        <button
           onClick={() => onCopyShare(report.reportId)}
           className="px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors"
           style={{ borderColor: "#2563EB", color: "#2563EB" }}
         >
           {copiedId === report.reportId ? "Copied!" : "Copy Share Link"}
         </button>
+        <button
+          onClick={() => {
+            // TODO: Wire to PATCH /api/v1/report/{reportId}/share
+          }}
+          className="px-3 py-1.5 rounded-lg text-xs font-semibold border border-gray-300 text-gray-600 hover:bg-gray-100 transition-colors"
+        >
+          {report.isPublic ? "Make Private" : "Make Public"}
+        </button>
+        {!report.isPublic && (
+          <button
+            onClick={() => {
+              // TODO: Wire to PATCH /api/v1/report/{reportId}/share for password
+            }}
+            className="px-3 py-1.5 rounded-lg text-xs font-semibold border border-gray-300 text-gray-600 hover:bg-gray-100 transition-colors"
+          >
+            {report.hasPassword ? "Change Password" : "Set Password"}
+          </button>
+        )}
+        <button
+          onClick={() => onEditTags(editingTagsId === report.reportId ? null : report.reportId)}
+          className="px-3 py-1.5 rounded-lg text-xs font-semibold border border-gray-300 text-gray-600 hover:bg-gray-100 transition-colors"
+        >
+          {editingTagsId === report.reportId ? "Cancel" : "Edit Tags"}
+        </button>
       </div>
+
+      {/* Inline tag editing */}
+      {editingTagsId === report.reportId && (
+        <div className="mt-3 p-3 bg-white rounded-lg border border-gray-200 space-y-2">
+          <div className="grid grid-cols-2 gap-2">
+            <div>
+              <label className="text-xs text-gray-500 mb-0.5 block">LinkedIn Name</label>
+              <input
+                type="text"
+                defaultValue={report.tags?.linkedinName || ""}
+                className="w-full text-sm px-2.5 py-1.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+              />
+            </div>
+            <div>
+              <label className="text-xs text-gray-500 mb-0.5 block">Company</label>
+              <input
+                type="text"
+                defaultValue={report.tags?.company || ""}
+                className="w-full text-sm px-2.5 py-1.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+              />
+            </div>
+          </div>
+          <div>
+            <label className="text-xs text-gray-500 mb-0.5 block">Notes</label>
+            <input
+              type="text"
+              defaultValue={report.tags?.notes || ""}
+              className="w-full text-sm px-2.5 py-1.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+            />
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => {
+                // TODO: Wire to PATCH /api/v1/report/{reportId}/tags
+                onEditTags(null);
+              }}
+              className="px-4 py-1.5 rounded-lg text-xs font-semibold text-white"
+              style={{ background: "#D4A843", color: "#1B2A4A" }}
+            >
+              Save Tags
+            </button>
+            <button
+              onClick={() => onEditTags(null)}
+              className="px-4 py-1.5 rounded-lg text-xs font-semibold text-gray-500 hover:text-gray-700"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
