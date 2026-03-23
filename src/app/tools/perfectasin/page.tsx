@@ -22,7 +22,7 @@ const modules = [
   {
     name: "Title Analysis",
     description:
-      "Keyword placement, character count optimization, readability scoring, and search relevance analysis. Know exactly how Amazon's algorithm reads your title.",
+      "Three-pillar scoring across SEO, Rufus AI compatibility, and Conversion. Compliance checks, ICP buyer persona profiling, and AI-generated title variations — all weighted to how Amazon actually ranks listings.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
@@ -32,7 +32,7 @@ const modules = [
   {
     name: "Bullet Points",
     description:
-      "Benefit-driven copy analysis, keyword density checks, formatting compliance, and persuasion scoring. Turn feature lists into conversion machines.",
+      "Per-bullet scoring across four dimensions: keyword optimization, benefit clarity, readability, and Rufus AI compatibility. Generates five complete bullet sets — Balanced, Conversion, SEO, Rufus, and Mobile (unique to PerfectASIN).",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
@@ -42,7 +42,7 @@ const modules = [
   {
     name: "Description",
     description:
-      "A+ content readiness, HTML formatting analysis, brand story evaluation, and SEO keyword coverage. Make every word in your description work harder.",
+      "Five-dimension analysis: keyword relevance, benefit clarity, readability, Rufus AI compatibility, and ICP alignment. A+ Content detection with AI rewrites in both plain text and HTML formats.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
@@ -52,7 +52,7 @@ const modules = [
   {
     name: "Hero Image",
     description:
-      "Visual composition analysis, text overlay detection, background quality scoring, and mobile thumbnail readability. Your main image is your listing's first impression.",
+      "Scored across five dimensions: zoom eligibility, gallery completeness, alt text quality, A+ Content signal, and secondary image intelligence. Generates ICP-personalized AI image prompts across four strategies.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M2.25 4.5h19.5M2.25 4.5v15a2.25 2.25 0 002.25 2.25h15a2.25 2.25 0 002.25-2.25V4.5" />
@@ -62,7 +62,7 @@ const modules = [
   {
     name: "Price Intelligence",
     description:
-      "Competitive price positioning, Buy Box probability analysis, margin optimization suggestions, and promotional pricing insights. Price with confidence, not guesswork.",
+      "Automatic competitor price scraping with percentile ranking and price ladder visualization. Four-dimension scoring: competitive position, price-quality signal, psychological pricing, and Buy Box visibility. Shows exactly where you sit in your market.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
