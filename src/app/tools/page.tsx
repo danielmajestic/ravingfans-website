@@ -3,15 +3,15 @@ import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export const metadata: Metadata = {
-  title: "Tools",
+  title: "Amazon Seller Tools",
   description:
-    "The RFAI Tool Suite — AI-powered tools for Amazon sellers. Listing optimization, title analysis, and full ASIN audit reports.",
+    "Amazon Seller Tools by RavingFans.ai — 27 years of e-commerce expertise, trained into AI. Listing optimization, title analysis, and full ASIN audit reports.",
   openGraph: {
-    title: "Tools | RavingFans.ai",
+    title: "Amazon Seller Tools | RavingFans.ai",
     description:
-      "AI-powered tools for Amazon sellers. Optimize listings, analyze titles, and get full ASIN audit reports.",
+      "27 years of e-commerce expertise, trained into AI. Analyze, optimize, and outperform your competition.",
     url: "https://www.ravingfans.ai/tools",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "RFAI Tool Suite — RavingFans.ai" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Amazon Seller Tools — RavingFans.ai" }],
   },
 };
 
@@ -20,11 +20,11 @@ const tools = [
     name: "PerfectASIN",
     tagline: "AI-Powered Amazon Listing Optimization",
     description:
-      "Analyze any Amazon listing in seconds. Get actionable scores and recommendations for your title, bullets, description, hero image, and pricing — all from one Chrome extension.",
+      "Analyze any Amazon listing in seconds. Get a detailed audit of your title, bullets, description, hero image, and pricing — with specific fixes you can paste directly into Seller Central. Free to start.",
     cta: "Install Free Extension",
     ctaHref:
       "https://chromewebstore.google.com/detail/perfectasin/gpanmohpifokedkbceifjmikjjchiekc",
-    secondaryCta: "Learn More",
+    secondaryCta: "See What It Analyzes",
     secondaryHref: "/tools/perfectasin",
     badge: null,
     icon: (
@@ -54,8 +54,8 @@ const tools = [
     name: "Consultant Report",
     tagline: "Full ASIN Audit Report",
     description:
-      "A comprehensive, AI-generated audit of any Amazon listing. Detailed analysis across all five modules with prioritized recommendations. The same report our consultants use internally.",
-    cta: "Coming Soon",
+      "The same analysis that takes a consultant a week and costs $2,500 — delivered in 7 minutes. A comprehensive audit across all five modules with prioritized action items and copy-ready implementation blocks.",
+    cta: "Join the Waitlist",
     ctaHref: null,
     secondaryCta: null,
     secondaryHref: null,
@@ -74,11 +74,14 @@ export default function ToolsPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-navy-dark via-navy to-navy-light pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
-            RFAI Tool Suite
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-2">
+            Amazon Seller Tools
           </h1>
+          <p className="text-sm sm:text-base font-medium text-gold mb-4">
+            by RavingFans.ai
+          </p>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            AI-powered tools that give Amazon sellers an unfair advantage.
+            27 years of e-commerce expertise, trained into AI.
             Analyze, optimize, and outperform your competition.
           </p>
         </div>
@@ -180,6 +183,23 @@ export default function ToolsPage() {
               Get PerfectASIN — Free
             </a>
           </ScrollFadeIn>
+        </div>
+      </section>
+
+      {/* Anthropic credit */}
+      <section className="py-6 bg-warm border-t border-gray-200">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <p className="text-xs text-medium">
+            Built on{" "}
+            <a
+              href="https://www.anthropic.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-navy hover:text-navy-light underline underline-offset-2 transition-colors"
+            >
+              Claude by Anthropic
+            </a>
+          </p>
         </div>
       </section>
     </>

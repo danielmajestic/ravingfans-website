@@ -113,12 +113,27 @@ export default function ConsultantReportPage() {
       <>
         <section className="bg-gradient-to-br from-navy-dark via-navy to-navy-light pt-32 pb-20 min-h-screen">
           <div className="max-w-md mx-auto px-4 sm:px-6">
+            <div className="text-center mb-8">
+              <p className="text-sm text-gray-300 leading-relaxed max-w-sm mx-auto">
+                This tool generates a full consultant-grade ASIN audit report.
+                Currently available to RavingFans.ai team members only.
+                Want a free report? Drop your ASIN in the comments on our{" "}
+                <a
+                  href="https://www.linkedin.com/in/dan-matejsek"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:text-gold-light underline underline-offset-2 transition-colors"
+                >
+                  latest LinkedIn post
+                </a>.
+              </p>
+            </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h1 className="text-2xl font-extrabold text-dark mb-2 text-center">
                 Consultant Report
               </h1>
               <p className="text-sm text-medium text-center mb-6">
-                This tool is restricted. Enter the access password to continue.
+                Team access only. Enter the password to continue.
               </p>
               <form onSubmit={handleAuth}>
                 <input

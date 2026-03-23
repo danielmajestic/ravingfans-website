@@ -16,13 +16,13 @@ export const metadata: Metadata = {
 
 const CWS_URL =
   "https://chromewebstore.google.com/detail/perfectasin/gpanmohpifokedkbceifjmikjjchiekc";
-const LINKEDIN_URL = "https://www.linkedin.com/in/danielmajestic/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/dan-matejsek";
 
 const modules = [
   {
     name: "Title Analysis",
     description:
-      "Three-pillar scoring across SEO, Rufus AI compatibility, and Conversion. Compliance checks, ICP buyer persona profiling, and AI-generated title variations — all weighted to how Amazon actually ranks listings.",
+      "Are your top keywords buried past the mobile cutoff? PerfectASIN checks character count, keyword placement, compliance, and gives you an optimized title ready to paste.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
@@ -32,7 +32,7 @@ const modules = [
   {
     name: "Bullet Points",
     description:
-      "Per-bullet scoring across four dimensions: keyword optimization, benefit clarity, readability, and Rufus AI compatibility. Generates five complete bullet sets — Balanced, Conversion, SEO, Rufus, and Mobile (unique to PerfectASIN).",
+      "Features don\u2019t sell \u2014 benefits do. Get each bullet scored for keyword usage, benefit-feature balance, length, and readability. Optimized bullets included.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
@@ -42,7 +42,7 @@ const modules = [
   {
     name: "Description",
     description:
-      "Five-dimension analysis: keyword relevance, benefit clarity, readability, Rufus AI compatibility, and ICP alignment. A+ Content detection with AI rewrites in both plain text and HTML formats.",
+      "Keyword gaps, readability scores, HTML compliance, and brand voice assessment. Your optimized description is ready for Seller Central.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
@@ -52,7 +52,7 @@ const modules = [
   {
     name: "Hero Image",
     description:
-      "Scored across five dimensions: zoom eligibility, gallery completeness, alt text quality, A+ Content signal, and secondary image intelligence. Generates ICP-personalized AI image prompts across four strategies.",
+      "Compliance check, background analysis, text overlay detection, and info density scoring. Know exactly what Amazon\u2019s algorithm sees.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M2.25 4.5h19.5M2.25 4.5v15a2.25 2.25 0 002.25 2.25h15a2.25 2.25 0 002.25-2.25V4.5" />
@@ -62,7 +62,7 @@ const modules = [
   {
     name: "Price Intelligence",
     description:
-      "Automatic competitor price scraping with percentile ranking and price ladder visualization. Four-dimension scoring: competitive position, price-quality signal, psychological pricing, and Buy Box visibility. Shows exactly where you sit in your market.",
+      "Where do you sit against competitors? See your price percentile, Buy Box status, and the sweet spot where your conversion rate peaks.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -81,12 +81,11 @@ export default function PerfectAsinPage() {
             Free Chrome Extension
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-6">
-            PerfectASIN
+            Your Amazon Listing Is Leaving Money on the Table
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-            Analyze any Amazon listing in seconds. Get an instant score and
-            actionable recommendations across five critical modules — title,
-            bullets, description, hero image, and pricing.
+            PerfectASIN analyzes your title, bullets, description, hero image,
+            and pricing in seconds — then tells you exactly what to fix and why.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -95,7 +94,7 @@ export default function PerfectAsinPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-gold hover:bg-gold-light text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-gold/20"
             >
-              Get Your Free Analysis
+              Install Free — Chrome Web Store
             </a>
             <a
               href={LINKEDIN_URL}
@@ -103,12 +102,9 @@ export default function PerfectAsinPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 border border-white/20 text-white font-semibold text-lg rounded-xl hover:bg-white/5 transition-colors"
             >
-              Get a Free Consultant Report
+              Get a Free ASIN Roast on LinkedIn
             </a>
           </div>
-          <p className="mt-4 text-sm text-gray-400">
-            Drop your ASIN on LinkedIn and Dan will roast it for free.
-          </p>
         </div>
       </section>
 
@@ -163,11 +159,11 @@ export default function PerfectAsinPage() {
           <ScrollFadeIn>
             <div className="text-center mb-14">
               <h2 className="text-3xl sm:text-4xl font-extrabold text-dark mb-4">
-                Results From Real Sellers
+                Real ASIN Roasts — Coming Weekly
               </h2>
               <p className="text-lg text-medium max-w-2xl mx-auto">
-                Case studies from our LinkedIn &ldquo;Roast Your ASIN&rdquo;
-                campaign. Real listings. Real improvements. Real revenue impact.
+                Every week we audit real Amazon listings publicly.
+                Follow the series on LinkedIn to see the reports.
               </p>
             </div>
           </ScrollFadeIn>
@@ -184,6 +180,19 @@ export default function PerfectAsinPage() {
               </ScrollFadeIn>
             ))}
           </div>
+
+          <ScrollFadeIn>
+            <div className="text-center mt-10">
+              <a
+                href={LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-navy hover:bg-navy-light text-white font-semibold rounded-xl transition-colors"
+              >
+                Follow on LinkedIn
+              </a>
+            </div>
+          </ScrollFadeIn>
         </div>
       </section>
 
@@ -192,10 +201,10 @@ export default function PerfectAsinPage() {
         <div className="max-w-2xl mx-auto px-4 sm:px-6">
           <ScrollFadeIn>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">
-              Your Listing Is Leaving Money on the Table
+              Stop Guessing. Start Optimizing.
             </h2>
             <p className="text-gray-300 mb-8">
-              Install PerfectASIN and find out exactly how much. Takes 30
+              Install PerfectASIN and find out exactly where your listing stands. Takes 30
               seconds. Costs nothing.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -213,7 +222,7 @@ export default function PerfectAsinPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/5 transition-colors"
               >
-                Drop Your ASIN on LinkedIn
+                Get a Free ASIN Roast on LinkedIn
               </a>
             </div>
           </ScrollFadeIn>
