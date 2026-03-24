@@ -4,7 +4,9 @@ import { useState, useEffect, FormEvent } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 
-const API_BASE = process.env.NEXT_PUBLIC_PERFECTASIN_API_URL || "";
+const API_BASE =
+  process.env.NEXT_PUBLIC_PERFECTASIN_API_URL ||
+  "https://titleperfect-api-119656431080.us-central1.run.app";
 
 interface ReportData {
   htmlContent: string;
@@ -12,7 +14,7 @@ interface ReportData {
   overallScore: number;
   asin: string;
   generatedAt: string;
-  isPasswordProtected: boolean;
+  requiresPassword?: boolean;
 }
 
 export default function SharedReportPage() {
@@ -31,18 +33,17 @@ export default function SharedReportPage() {
     async function fetchReport() {
       try {
         const res = await fetch(
-          `${API_BASE}/api/v1/report/${shareToken}`,
-          { headers: { "Content-Type": "application/json" } }
+          `${API_BASE}/api/v1/report/view/${shareToken}`
         );
 
-        if (res.status === 401) {
-          setNeedsPassword(true);
+        if (res.status === 404) {
+          setError("Report not found. It may have been removed or the link is invalid.");
           setLoading(false);
           return;
         }
 
-        if (res.status === 404) {
-          setError("Report not found. It may have been removed or the link is invalid.");
+        if (res.status === 410) {
+          setError("This report has been deleted.");
           setLoading(false);
           return;
         }
@@ -54,7 +55,11 @@ export default function SharedReportPage() {
         }
 
         const data = await res.json();
-        setReport(data);
+        if (data.requiresPassword) {
+          setNeedsPassword(true);
+        } else {
+          setReport(data);
+        }
       } catch {
         setError("Unable to connect. Please check your connection and try again.");
       } finally {
@@ -71,15 +76,10 @@ export default function SharedReportPage() {
 
     try {
       const res = await fetch(
-        `${API_BASE}/api/v1/report/${shareToken}`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ password }),
-        }
+        `${API_BASE}/api/v1/report/view/${shareToken}?password=${encodeURIComponent(password)}`
       );
 
-      if (res.status === 401) {
+      if (res.status === 403) {
         setAuthError("Incorrect password. Please try again.");
         return;
       }
