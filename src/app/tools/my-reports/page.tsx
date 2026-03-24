@@ -15,14 +15,18 @@ const GRADE_COLORS: Record<string, string> = {
 };
 
 const SOURCE_OPTIONS = [
-  "All",
-  "LinkedIn Carousel",
-  "LinkedIn DM",
-  "Direct Outreach",
-  "Client Request",
-  "Personal Audit",
-  "Other",
+  { value: "All", label: "All" },
+  { value: "linkedin_carousel", label: "LinkedIn Carousel" },
+  { value: "linkedin_dm", label: "LinkedIn DM" },
+  { value: "direct_outreach", label: "Direct Outreach" },
+  { value: "client_request", label: "Client Request" },
+  { value: "personal_audit", label: "Personal Audit" },
+  { value: "other", label: "Other" },
 ];
+
+const SOURCE_LABELS: Record<string, string> = Object.fromEntries(
+  SOURCE_OPTIONS.map((o) => [o.value, o.label])
+);
 
 const GRADE_OPTIONS = ["All", "A", "B", "C", "D", "F"];
 
@@ -63,7 +67,7 @@ const MOCK_REPORTS: ReportSummary[] = [
     productTitle: "TrueHope EMPowerplus Advanced - Multi-Vitamin & Mineral Supplement",
     overallGrade: "C", overallScore: 72, generatedAt: "2026-03-22T18:30:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 58, grade: "F" }, bullets: { score: 65, grade: "D" }, description: { score: 70, grade: "C" }, heroImage: { score: 78, grade: "C" }, price: { score: 82, grade: "B" } },
-    tags: { linkedinName: "Mike Glick", company: "Goode Health", source: "LinkedIn Carousel", notes: "First audit for Mike" },
+    tags: { linkedinName: "Mike Glick", company: "Goode Health", source: "linkedin_carousel", notes: "First audit for Mike" },
     isPublic: true, hasPassword: false,
   },
   {
@@ -71,7 +75,7 @@ const MOCK_REPORTS: ReportSummary[] = [
     productTitle: "Garden of Life Vitamin Code Raw Zinc - 60 Capsules",
     overallGrade: "B", overallScore: 84, generatedAt: "2026-03-21T14:15:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 88, grade: "B" }, bullets: { score: 82, grade: "B" }, description: { score: 80, grade: "B" }, heroImage: { score: 85, grade: "B" }, price: { score: 79, grade: "C" } },
-    tags: { linkedinName: "Sarah Chen", company: "NutraVita", source: "Direct Outreach", notes: "" },
+    tags: { linkedinName: "Sarah Chen", company: "NutraVita", source: "direct_outreach", notes: "" },
     isPublic: false, hasPassword: true,
   },
   {
@@ -79,7 +83,7 @@ const MOCK_REPORTS: ReportSummary[] = [
     productTitle: "Orgain Organic Plant Based Protein Powder - Vanilla Bean",
     overallGrade: "A", overallScore: 91, generatedAt: "2026-03-20T09:45:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 92, grade: "A" }, bullets: { score: 90, grade: "A" }, description: { score: 88, grade: "B" }, heroImage: { score: 93, grade: "A" }, price: { score: 91, grade: "A" } },
-    tags: { linkedinName: "Tom Rodriguez", company: "Orgain", source: "Client Request", notes: "Showcase audit for portfolio" },
+    tags: { linkedinName: "Tom Rodriguez", company: "Orgain", source: "client_request", notes: "Showcase audit for portfolio" },
     isPublic: true, hasPassword: false,
   },
   {
@@ -87,7 +91,7 @@ const MOCK_REPORTS: ReportSummary[] = [
     productTitle: "Ancient Nutrition Multi Collagen Protein Powder",
     overallGrade: "D", overallScore: 63, generatedAt: "2026-03-18T16:00:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 55, grade: "F" }, bullets: { score: 60, grade: "D" }, description: { score: 68, grade: "D" }, heroImage: { score: 70, grade: "C" }, price: { score: 65, grade: "D" } },
-    tags: { linkedinName: "Jessica Park", company: "Ancient Nutrition", source: "LinkedIn DM", notes: "Needs major title overhaul" },
+    tags: { linkedinName: "Jessica Park", company: "Ancient Nutrition", source: "linkedin_dm", notes: "Needs major title overhaul" },
     isPublic: false, hasPassword: false,
   },
   {
@@ -102,7 +106,7 @@ const MOCK_REPORTS: ReportSummary[] = [
     productTitle: "Sports Research Collagen Peptides - Hydrolyzed Type I & III",
     overallGrade: "B", overallScore: 81, generatedAt: "2026-03-14T08:20:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 85, grade: "B" }, bullets: { score: 78, grade: "C" }, description: { score: 82, grade: "B" }, heroImage: { score: 80, grade: "B" }, price: { score: 83, grade: "B" } },
-    tags: { linkedinName: "", company: "Sports Research", source: "Personal Audit", notes: "" },
+    tags: { linkedinName: "", company: "Sports Research", source: "personal_audit", notes: "" },
     isPublic: true, hasPassword: false,
   },
 ];
@@ -307,8 +311,8 @@ export default function MyReportsDashboard() {
                 className="text-sm border border-gray-200 rounded-lg px-2 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/30"
               >
                 {SOURCE_OPTIONS.map((s) => (
-                  <option key={s} value={s}>
-                    {s}
+                  <option key={s.value} value={s.value}>
+                    {s.label}
                   </option>
                 ))}
               </select>
@@ -539,7 +543,7 @@ function TableRow({
           {report.tags?.linkedinName || <span className="text-gray-400">—</span>}
         </td>
         <td className="px-4 py-3 text-xs text-gray-500">
-          {report.tags?.source || "—"}
+          {report.tags?.source ? (SOURCE_LABELS[report.tags.source] || report.tags.source) : "—"}
         </td>
         <td className="px-4 py-3">
           <div className="flex items-center gap-1">
@@ -651,7 +655,7 @@ function ExpandedDetail({
       {report.tags && (report.tags.source || report.tags.notes) && (
         <div className="text-xs text-gray-500 mb-3 space-y-0.5">
           {report.tags.source && (
-            <p>Source: <span className="text-gray-700">{report.tags.source}</span></p>
+            <p>Source: <span className="text-gray-700">{SOURCE_LABELS[report.tags.source] || report.tags.source}</span></p>
           )}
           {report.tags.notes && (
             <p>Notes: <span className="text-gray-700">{report.tags.notes}</span></p>
