@@ -18,6 +18,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPostBySlug(slug);
   if (!post) return { title: "Not Found" };
 
+  const siteUrl = "https://www.ravingfans.ai";
+  const articleUrl = `${siteUrl}/blog/${post.slug}`;
+  const ogImage = post.coverImage ? `${siteUrl}${post.coverImage}` : undefined;
+
   return {
     title: post.title,
     description: post.excerpt,
@@ -25,18 +29,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.excerpt,
       type: "article",
+      url: articleUrl,
       publishedTime: post.date,
       authors: [post.author],
-      images: post.coverImage ? [{ url: post.coverImage, width: 1200, height: 630 }] : [],
+      images: ogImage
+        ? [{ url: ogImage, width: 1200, height: 630, type: "image/png" }]
+        : [],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: post.coverImage ? [post.coverImage] : [],
+      images: ogImage ? [ogImage] : [],
     },
     alternates: {
-      canonical: `/blog/${post.slug}`,
+      canonical: articleUrl,
     },
   };
 }

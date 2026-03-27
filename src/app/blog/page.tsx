@@ -54,13 +54,13 @@ export default function BlogPage() {
                   <article className="bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-200 hover:shadow-lg hover:border-gold/30 sm:flex">
                     {/* Thumbnail */}
                     {post.coverImage && (
-                      <div className="sm:w-64 sm:min-w-64 h-48 sm:h-auto bg-navy-light relative overflow-hidden">
+                      <div className="w-full sm:w-72 sm:min-w-72 relative overflow-hidden bg-navy" style={{ aspectRatio: "1.91 / 1" }}>
                         <Image
                           src={post.coverImage}
                           alt={post.title}
                           fill
-                          className="object-contain"
-                          sizes="(max-width: 640px) 100vw, 256px"
+                          className="object-cover"
+                          sizes="(max-width: 640px) 100vw, 288px"
                         />
                       </div>
                     )}
