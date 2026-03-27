@@ -93,9 +93,14 @@ export default function BlogPage() {
                             D
                           </span>
                         </div>
-                        <span className="text-xs text-medium">
-                          {post.author}
-                        </span>
+                        <div className="flex flex-col">
+                          <span className="text-xs text-dark font-medium">
+                            {post.author}
+                          </span>
+                          <span className="text-[11px] text-medium">
+                            Founder, RavingFans.ai
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </article>

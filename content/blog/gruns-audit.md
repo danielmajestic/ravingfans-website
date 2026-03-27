@@ -6,7 +6,7 @@ date: "2026-04-01"
 author: "Dan Matejsek"
 authorBio: "Dan Matejsek is the founder of RavingFans.ai and PerfectASIN. He's spent 27 years in e-commerce and digital marketing, including co-founding an Amazon brand that scaled to $72M in annual revenue and exited through a $1.3B SPAC to Aterian (NASDAQ: ATER). He currently consults with Amazon brands on listing optimization, advertising strategy, and AI-powered growth."
 excerpt: "Grüns Super Greens Gummies is a #1 Best Seller on Amazon. Over 1,000 reviews. Best Seller badge. So why does their listing score a D- when you actually audit it?"
-coverImage: "/blog/images/hero-pdp-sidepanel.png"
+coverImage: "/blog/images/gruns-audit-og.png"
 readTime: "8 min read"
 published: true
 ---
