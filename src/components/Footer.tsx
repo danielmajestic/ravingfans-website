@@ -54,6 +54,11 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm mb-4">Connect</h4>
             <ul className="space-y-2.5">
               <li>
+                <Link href="/blog" className="text-gray-400 text-sm hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/insights" className="text-gray-400 text-sm hover:text-white transition-colors">
                   Insights
                 </Link>
