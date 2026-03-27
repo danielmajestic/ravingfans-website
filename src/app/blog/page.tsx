@@ -59,7 +59,7 @@ export default function BlogPage() {
                           src={post.coverImage}
                           alt={post.title}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                           sizes="(max-width: 640px) 100vw, 256px"
                         />
                       </div>
