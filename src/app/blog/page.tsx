@@ -51,16 +51,16 @@ export default function BlogPage() {
                   href={`/blog/${post.slug}`}
                   className="block group"
                 >
-                  <article className="bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-200 hover:shadow-lg hover:border-gold/30 sm:flex">
+                  <article className="bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-200 hover:shadow-lg hover:border-gold/30 max-w-2xl mx-auto">
                     {/* Thumbnail */}
                     {post.coverImage && (
-                      <div className="w-full sm:w-72 sm:min-w-72 relative overflow-hidden bg-navy" style={{ aspectRatio: "1.91 / 1" }}>
+                      <div className="w-full relative overflow-hidden bg-navy" style={{ aspectRatio: "1.91 / 1" }}>
                         <Image
                           src={post.coverImage}
                           alt={post.title}
                           fill
                           className="object-cover"
-                          sizes="(max-width: 640px) 100vw, 288px"
+                          sizes="(max-width: 672px) 100vw, 672px"
                         />
                       </div>
                     )}
