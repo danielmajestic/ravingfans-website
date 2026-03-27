@@ -78,9 +78,14 @@ export default function Footer() {
           <p className="text-gray-500 text-xs">
             &copy; {new Date().getFullYear()} RavingFans.ai. All rights reserved.
           </p>
-          <p className="text-gray-600 text-xs">
-            Built with care by the RavingFans.ai team
-          </p>
+          <div className="flex items-center gap-4">
+            <Link href="/terms" className="text-gray-500 text-xs hover:text-gray-400 transition-colors">
+              Terms
+            </Link>
+            <p className="text-gray-600 text-xs">
+              Built with care by the RavingFans.ai team
+            </p>
+          </div>
         </div>
       </div>
     </footer>
