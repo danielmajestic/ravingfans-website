@@ -88,11 +88,11 @@ export default function BlogPage() {
                       </p>
 
                       <div className="flex items-center gap-2">
-                        <div className="w-6 h-6 rounded-full bg-navy flex items-center justify-center">
-                          <span className="text-white text-[10px] font-bold">
-                            D
-                          </span>
-                        </div>
+                        <img
+                          src="/blog/images/dan-headshot.png"
+                          alt="Dan Matejsek"
+                          className="w-6 h-6 rounded-full object-cover"
+                        />
                         <div className="flex flex-col">
                           <span className="text-xs text-dark font-medium">
                             {post.author}

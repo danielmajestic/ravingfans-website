@@ -152,9 +152,11 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* Author bio */}
           <div className="mt-12 flex flex-col sm:flex-row gap-5 items-start">
-            <div className="w-14 h-14 rounded-full bg-navy flex-shrink-0 flex items-center justify-center border-2 border-gold/30">
-              <span className="text-gold text-lg font-bold">DM</span>
-            </div>
+            <img
+              src="/blog/images/dan-headshot.png"
+              alt="Dan Matejsek"
+              className="w-14 h-14 rounded-full object-cover flex-shrink-0 border-2 border-gold/30"
+            />
             <div>
               <p className="font-semibold text-dark mb-1">{post.author}</p>
               <p className="text-sm text-medium leading-relaxed">
