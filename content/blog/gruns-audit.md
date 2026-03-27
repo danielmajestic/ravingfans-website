@@ -15,7 +15,7 @@ Grüns Super Greens Gummies is a #1 Best Seller on Amazon. Over 1,000 reviews. B
 
 So why does their listing score a D- when you actually audit it?
 
-I built PerfectASIN — an AI-powered listing intelligence tool — because I spent over two decades optimizing Amazon listings for brands doing $10M to $70M+ in annual revenue, including building and exiting a brand that scaled to $72M annually. I've seen the same mistakes on thousand-dollar listings and hundred-million-dollar listings. The difference is that the big brands are leaving bigger piles of money on the table.
+I built PerfectASIN — an AI-powered listing intelligence tool — because I spent 11 years optimizing Amazon listings for brands doing $6M to $325M+ in annual revenue, including building and exiting a brand that scaled to $72M annually. I've seen the same mistakes on thousand-dollar listings and hundred-million-dollar listings. The difference is that the big brands are leaving bigger piles of money on the table.
 
 Today I'm going to walk you through what a real $5,000 Full ASIN Audit™ looks like, using Grüns as our case study. Everything you see below was generated in about 2 minutes by PerfectASIN, powered by Claude Opus — Anthropic's most advanced AI.
 
@@ -41,7 +41,7 @@ Grüns scored well on the visual side (C- on Hero Image, B- on A+ Content) but g
 
 <div class="revenue-callout">
   <span class="revenue-callout-label">Estimated Revenue Impact</span>
-  <span class="revenue-callout-value">$8,000–$15,000/month in recovered revenue</span>
+  <span class="revenue-callout-value">$3,400–$17,000/mo (conservative) | $50,000–$85,000/mo (aggressive)</span>
 </div>
 
 ---
@@ -52,13 +52,11 @@ Grüns scored well on the visual side (C- on Hero Image, B- on A+ Content) but g
 
 The current title ends with "10 Count." But the product isn't 10 gummies — it's 10 individually wrapped packs of 8 gummies each. That's 80 gummies total.
 
-At $33.99, a shopper who reads "10 Count" perceives a price of $3.40 per gummy. The actual price is $0.42 per gummy. That's an 8x perception gap.
+At $33.99, a shopper scanning search results who reads "10 Count" calculates roughly $3.40 per gummy. The actual price is $0.42 per gummy — an 8x perception gap.
 
-In the supplements category, where shoppers are comparison shopping across 3-4 products and price-per-unit is a major decision factor, that perception gap is almost certainly killing conversions. A shopper sees "$33.99 for 10 count" and moves on to the next listing without ever realizing they'd be getting 80 gummies.
+This matters most in competitive context. If competing brands in the search results are listing their actual piece count (e.g., "60 Gummies" or "90 Count"), Grüns appears dramatically overpriced by comparison — even if the actual per-unit value is competitive or better. In the supplements category, where shoppers routinely compare 3-4 listings side by side and price-per-unit drives purchase decisions, this kind of misperception can quietly kill conversions.
 
-PerfectASIN's optimized title fixes this: "...80 Gummies (10 Individual Packs)" — now the actual value proposition is clear.
-
-This is the kind of insight that takes an experienced Amazon consultant 30 minutes to spot and articulate. PerfectASIN found it in under 2 minutes.
+PerfectASIN's optimized title fixes this: "...80 Gummies (10 Individual Packs)" — making the actual value proposition immediately clear in search results.
 
 ---
 
@@ -80,7 +78,7 @@ PerfectASIN caught both. Automatically.
 
 Grüns has 6 bullet points. Every single one exceeds 300 characters. Some are over 500.
 
-Here's why that matters: over 70% of Amazon shoppers browse on mobile. On the Amazon mobile app, bullet points truncate at approximately 100 characters. Everything after that is hidden behind a "Show more" tap that most shoppers never make.
+Here's why that matters: nearly 60% of Amazon traffic comes from mobile devices. On the Amazon mobile app, bullet points truncate at approximately 100 characters. Everything after that is hidden behind a "Show more" tap that most shoppers never make.
 
 That means for the majority of Grüns' shoppers, the actual bullet point they see is:
 
@@ -143,7 +141,7 @@ PerfectASIN generated a 6-item prioritized action plan with difficulty ratings a
 5. **Address the rating** (Hard) — +10-15% conversion if rating reaches 4.3+
 6. **Competitive price benchmarking** (Medium) — +10-20% conversion rate
 
-Collectively, implementing these fixes could lift conversion rate by 20-35%, which at current traffic levels and a $33.99 price point translates to an estimated $8,000–$15,000/month in recovered revenue.
+Even a very conservative 1–5% conversion lift at Grüns' current sales velocity (10,000+ units/month at $33.99) represents $3,400–$17,000/month in additional revenue — and well worth the investment. We've seen conversion lifts much higher, in the 15–25%+ range, which at this volume could mean $50,000–$85,000/month in recovered revenue.
 
 And the report includes ready-to-paste optimized content — title, all 6 bullets, and a full keyword-rich product description. Copy, paste, done.
 
