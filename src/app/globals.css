@@ -48,3 +48,53 @@ body {
 .faq-content.open {
   max-height: 500px;
 }
+
+/* Blog: Revenue callout box */
+.revenue-callout {
+  background: #1B2A4A;
+  border-radius: 12px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  margin: 32px 0;
+}
+.revenue-callout-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #C8962E;
+}
+.revenue-callout-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+}
+@media (max-width: 640px) {
+  .revenue-callout { padding: 20px 16px; }
+  .revenue-callout-value { font-size: 20px; }
+}
+
+/* Blog: Before/After blockquotes */
+.bq-before {
+  border-left: 4px solid #E87C5A !important;
+  background: #FEF2EE !important;
+  padding: 12px 20px !important;
+  border-radius: 0 8px 8px 0 !important;
+  color: #2D2D2D !important;
+  font-style: normal !important;
+  margin: 12px 0 !important;
+}
+.bq-after {
+  border-left: 4px solid #3D9A5F !important;
+  background: #EEF8F1 !important;
+  padding: 12px 20px !important;
+  border-radius: 0 8px 8px 0 !important;
+  color: #2D2D2D !important;
+  font-style: normal !important;
+  margin: 12px 0 !important;
+}

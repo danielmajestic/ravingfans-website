@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
@@ -53,12 +54,14 @@ export default function BlogPage() {
                   <article className="bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-200 hover:shadow-lg hover:border-gold/30 sm:flex">
                     {/* Thumbnail */}
                     {post.coverImage && (
-                      <div className="sm:w-64 sm:min-w-64 h-48 sm:h-auto bg-navy-light flex items-center justify-center overflow-hidden">
-                        <div className="w-full h-full bg-navy flex items-center justify-center p-6">
-                          <span className="text-gold text-sm font-semibold tracking-wider uppercase text-center">
-                            $5k Audit™
-                          </span>
-                        </div>
+                      <div className="sm:w-64 sm:min-w-64 h-48 sm:h-auto bg-navy-light relative overflow-hidden">
+                        <Image
+                          src={post.coverImage}
+                          alt={post.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 100vw, 256px"
+                        />
                       </div>
                     )}
 

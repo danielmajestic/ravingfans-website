@@ -6,7 +6,7 @@ date: "2026-04-01"
 author: "Dan Matejsek"
 authorBio: "Dan Matejsek is the founder of RavingFans.ai and PerfectASIN. He's spent 27 years in e-commerce and digital marketing, including co-founding an Amazon brand that scaled to $72M in annual revenue and exited through a $1.3B SPAC to Aterian (NASDAQ: ATER). He currently consults with Amazon brands on listing optimization, advertising strategy, and AI-powered growth."
 excerpt: "Grüns Super Greens Gummies is a #1 Best Seller on Amazon. Over 1,000 reviews. Best Seller badge. So why does their listing score a D- when you actually audit it?"
-coverImage: "/blog/images/gruns-cover.png"
+coverImage: "/blog/images/hero-pdp-sidepanel.png"
 readTime: "8 min read"
 published: true
 ---
@@ -25,7 +25,7 @@ Let's get into it.
 
 ## The Score: D-, 63/100
 
-![Screenshot of cover page](/blog/images/gruns-cover-page.png)
+![PerfectASIN audit cover page showing Grüns scored D-, 63/100](/blog/images/cover-page.png)
 
 PerfectASIN evaluates five modules, weighted by their actual impact on conversion rate:
 
@@ -39,11 +39,16 @@ These weights are based on conversion impact data from real Amazon listings — 
 
 Grüns scored well on the visual side (C- on Hero Image, B- on A+ Content) but got crushed on copy and pricing.
 
+<div class="revenue-callout">
+  <span class="revenue-callout-label">Estimated Revenue Impact</span>
+  <span class="revenue-callout-value">$8,000–$15,000/month in recovered revenue</span>
+</div>
+
 ---
 
 ## Finding #1: The "10 Count" Problem (This One's Costing Them Real Money)
 
-![Screenshot of Title section](/blog/images/gruns-title-section.png)
+![PerfectASIN title analysis showing the 10 Count problem](/blog/images/title-section.png)
 
 The current title ends with "10 Count." But the product isn't 10 gummies — it's 10 individually wrapped packs of 8 gummies each. That's 80 gummies total.
 
@@ -59,7 +64,7 @@ This is the kind of insight that takes an experienced Amazon consultant 30 minut
 
 ## Finding #2: The Typo That's Been Live for Months
 
-![Screenshot of Bullet Points section showing "Mutlivitamins"](/blog/images/gruns-typo-section.png)
+![PerfectASIN bullet points analysis highlighting the Mutlivitamins typo](/blog/images/bullets-typo.png)
 
 Bullet 2 contains the word "Mutlivitamins." That's not "Multivitamins" — it's a typo. In a health supplement listing. At a $33.99 price point.
 
@@ -79,17 +84,25 @@ Here's why that matters: over 70% of Amazon shoppers browse on mobile. On the Am
 
 That means for the majority of Grüns' shoppers, the actual bullet point they see is:
 
-> "A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methy..."
+> A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methy...
 
 The key benefits — 60 organic ingredients, MTHFR compatibility, 6g fiber — are all buried below the fold. Invisible to mobile shoppers.
 
 PerfectASIN rewrote all 6 bullets to benefit-first format under 200 characters:
 
 **Before (Bullet 1 — 450+ characters):**
-> "A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methylated multivitamin with 60 potent organic ingredients such as whole fruits, veggies, super mushrooms, prebiotics and fiber, adaptogens, and more to offer effective nutrition in one product..."
+
+<blockquote class="bq-before">
+A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methylated multivitamin with 60 potent organic ingredients such as whole fruits, veggies, super mushrooms, prebiotics and fiber, adaptogens, and more to offer effective nutrition in one product...
+</blockquote>
 
 **After (PerfectASIN optimized — under 200 characters):**
-> "STOP JUGGLING 10 SUPPLEMENTS: Grüns replaces your multivitamin, greens powder, fiber, and adaptogens with one delicious strawberry gummy bear — 60 organic superfoods in every serving"
+
+<blockquote class="bq-after">
+STOP JUGGLING 10 SUPPLEMENTS: Grüns replaces your multivitamin, greens powder, fiber, and adaptogens with one delicious strawberry gummy bear — 60 organic superfoods in every serving
+</blockquote>
+
+![PerfectASIN optimized bullet points — benefit-first, under 200 characters](/blog/images/bullets-optimized.png)
 
 Same information. Half the characters. Benefit first. Scannable on mobile.
 
@@ -97,7 +110,7 @@ Same information. Half the characters. Benefit first. Scannable on mobile.
 
 ## Finding #4: Below the 4.0 Trust Threshold
 
-![Screenshot of Review Health section](/blog/images/gruns-review-health.png)
+![PerfectASIN review health analysis showing 3.9 stars across 1,005 reviews](/blog/images/review-health.png)
 
 Grüns has 3.9 stars across 1,005 reviews. That's a significant review base, which is good. But 3.9 is below the 4.0 threshold where trust friction starts to measurably impact conversion, and well below the 4.3 mark where conversion rates see a meaningful step-up.
 
@@ -119,7 +132,7 @@ With zero alt text, Grüns' 9 beautiful gallery images and 8 product videos are 
 
 ## The Bottom Line
 
-![Screenshot of Action Plan](/blog/images/gruns-action-plan.png)
+![PerfectASIN prioritized action plan with projected conversion lift](/blog/images/action-plan.png)
 
 PerfectASIN generated a 6-item prioritized action plan with difficulty ratings and projected conversion lift for each fix:
 

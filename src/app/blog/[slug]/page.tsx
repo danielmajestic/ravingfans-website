@@ -89,7 +89,7 @@ export default async function BlogPostPage({ params }: Props) {
       </section>
 
       {/* Article body */}
-      <section className="bg-white py-12 sm:py-16">
+      <section className="bg-white py-8 sm:py-10">
         <article className="max-w-3xl mx-auto px-4 sm:px-6">
           <div
             className="prose prose-lg max-w-none
@@ -145,8 +145,8 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* Author bio */}
           <div className="mt-12 flex flex-col sm:flex-row gap-5 items-start">
-            <div className="w-14 h-14 rounded-full bg-navy flex-shrink-0 flex items-center justify-center">
-              <span className="text-white text-lg font-bold">DM</span>
+            <div className="w-14 h-14 rounded-full bg-navy flex-shrink-0 flex items-center justify-center border-2 border-gold/30">
+              <span className="text-gold text-lg font-bold">DM</span>
             </div>
             <div>
               <p className="font-semibold text-dark mb-1">{post.author}</p>
