@@ -51,15 +51,15 @@ const tools = [
     ),
   },
   {
-    name: "Consultant Report",
-    tagline: "Full ASIN Audit Report",
+    name: "$5,000 ASIN Audit\u2122",
+    tagline: "Full 18-Page Diagnostic Report",
     description:
-      "The same analysis that takes a consultant a week and costs $2,500 — delivered in 7 minutes. A comprehensive audit across all five modules with prioritized action items and copy-ready implementation blocks.",
-    cta: "Join the Waitlist",
-    ctaHref: null,
-    secondaryCta: null,
-    secondaryHref: null,
-    badge: "Coming Soon",
+      "The same analysis that takes a consultant a week and costs $5,000 \u2014 delivered in about 2 minutes. A comprehensive audit across all five listing modules with copy-paste-ready optimizations you can implement directly in Seller Central.",
+    cta: "Claim Your Free Audit",
+    ctaHref: "https://perfectasin.com/audit",
+    secondaryCta: "See a Sample Report",
+    secondaryHref: "https://perfectasin.com/audit",
+    badge: "Free for First 100",
     icon: (
       <svg className="w-10 h-10 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
@@ -98,7 +98,9 @@ export default function ToolsPage() {
                   {tool.badge && (
                     <span
                       className={`inline-block self-start text-xs font-semibold px-3 py-1 rounded-full mb-4 ${
-                        tool.badge === "Coming Soon"
+                        tool.badge === "Free for First 100"
+                          ? "bg-gold/20 text-gold-dark border border-gold/30"
+                          : tool.badge === "Coming Soon"
                           ? "bg-gold/10 text-gold-dark"
                           : "bg-gray-100 text-medium"
                       }`}
