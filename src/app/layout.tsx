@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/opengraph-image",
+        url: "https://ravingfans.ai/og-image.png",
         width: 1200,
         height: 630,
         alt: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "RavingFans.ai — We Turn Your Customers Into Raving Fans",
     description:
       "AI-powered customer acquisition engines for CPG brands that want exponential growth.",
-    images: ["/opengraph-image"],
+    images: ["https://ravingfans.ai/og-image.png"],
   },
 };
 
@@ -52,6 +52,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />

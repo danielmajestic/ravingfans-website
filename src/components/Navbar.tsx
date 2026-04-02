@@ -19,8 +19,20 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy/90 backdrop-blur-md border-b border-white/5">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-        <Link href="/" className="text-white text-xl font-bold tracking-tight">
-          RavingFans.ai
+        <Link href="/" className="flex items-center gap-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/rf-logo-header.png"
+            srcSet="/rf-logo-header.png 1x, /rf-logo-header-2x.png 2x"
+            alt="RavingFans.ai"
+            width={53}
+            height={40}
+            className="h-10 w-auto"
+          />
+          <span className="hidden sm:inline text-xl tracking-tight">
+            <span className="font-bold text-white">RavingFans</span>
+            <span className="font-light text-gold">.ai</span>
+          </span>
         </Link>
 
         {/* Desktop nav */}
