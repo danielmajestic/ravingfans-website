@@ -22,10 +22,10 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/rf-logo-header.png"
-            srcSet="/rf-logo-header.png 1x, /rf-logo-header-2x.png 2x"
-            alt="RavingFans.ai"
-            width={53}
+            src="/rf-logo-header-v2.png"
+            srcSet="/rf-logo-header-v2.png 1x, /rf-logo-header-2x-v2.png 2x"
+            alt="RavingFans.ai logo"
+            width={59}
             height={40}
             className="h-10 w-auto"
           />
