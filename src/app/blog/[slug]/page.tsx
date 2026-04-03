@@ -126,28 +126,56 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
 
           {/* CTA */}
-          <div className="bg-navy rounded-xl p-8 sm:p-10 text-center">
+          <div className="bg-navy rounded-xl p-8 sm:p-10">
             <h3
-              className="text-2xl sm:text-3xl font-bold text-white mb-3"
+              className="text-2xl sm:text-3xl font-bold text-white mb-4"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Want Your Listing Audited?
+              Ready to Find Your Hidden Revenue?
             </h3>
-            <p className="text-gray-300 mb-6 max-w-lg mx-auto">
-              Drop your ASIN in the comments on my LinkedIn post. Every Tuesday I
-              roast a real listing — free, public, no sugarcoating.
+
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              <strong className="text-white">Get your complimentary 18-page $5,000 ASIN Audit&#8482;</strong> — the same AI-powered diagnostic that finds thousands in hidden revenue on Amazon listings.
             </p>
             <a
-              href="https://www.linkedin.com/in/danmatejsek/"
+              href="https://perfectasin.com/audit"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-white font-semibold rounded-lg hover:bg-gold-light transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-white font-semibold rounded-lg hover:bg-gold-light transition-colors mb-6"
             >
-              Find Me on LinkedIn
+              Get Your Free Audit
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M6 4l4 4-4 4" />
               </svg>
             </a>
+
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              <strong className="text-white">Want expert help?</strong> I work with Amazon brands on listing optimization, advertising strategy, and conversion rate optimization.
+            </p>
+            <a
+              href="https://ravingfans.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 border border-gold text-gold font-semibold rounded-lg hover:bg-gold hover:text-white transition-colors mb-6"
+            >
+              Book a Consultation
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M6 4l4 4-4 4" />
+              </svg>
+            </a>
+
+            <p className="text-gray-400 text-sm">
+              <strong className="text-gray-300">Stay connected:</strong>{" "}
+              <a
+                href="https://www.linkedin.com/in/danmatejsek/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold hover:underline"
+              >
+                Find me on LinkedIn
+              </a>{" "}
+              for weekly insights on Amazon optimization and e-commerce growth.
+            </p>
           </div>
 
           {/* Author bio */}

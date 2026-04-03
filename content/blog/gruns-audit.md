@@ -158,13 +158,3 @@ I built this because the agencies I've worked with (and the agency I co-founded,
 Now it takes 2 minutes.
 
 ---
-
-## Want Your Listing Roasted?
-
-Starting next week, I'm running one of these every Tuesday on a real listing. Free. Published publicly.
-
-If you want your ASIN audited, drop it in the comments on my LinkedIn post. If yours gets picked, you'll get the full 19-page report — the same one you just read — for your listing.
-
-Fair warning: I'm not going to sugarcoat it. If your listing has problems, the report will find them.
-
-That's the point.
