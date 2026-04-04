@@ -114,15 +114,52 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-5 text-base text-dark leading-relaxed">
               <p>
-                I call it Business Karma. When you&apos;re generous with the value you create — when you genuinely try to make people&apos;s lives better through your work — it compounds and comes back to you. One of my favorite proverbs says it plainly: generosity begets generosity, and stinginess impoverishes.
+                I call it Business Karma. When you&apos;re generous with the value you create, when you genuinely try to make people&apos;s lives better through your work, it compounds and comes back to you. One of my favorite proverbs says it plainly: generosity begets generosity, and stinginess impoverishes.
               </p>
               <p>
-                That&apos;s not just philosophy. It&apos;s how I operate. I give quick wins on strategy calls before anyone has paid me a dollar. I share frameworks publicly that most consultants charge thousands for. I treat every client&apos;s business like my own — because I genuinely believe that when I make your business better, the universe takes care of the rest.
+                That&apos;s not just philosophy. It&apos;s how I operate. I give quick wins on strategy calls before anyone has paid me a dollar. I share frameworks publicly that most consultants charge thousands for. I treat every client&apos;s business like my own&thinsp;&mdash;&thinsp;because I genuinely believe that when I make your business better, the universe takes care of the rest.
               </p>
               <p>
-                My 8 core values: Exceed expectations. Be a blessing. Do your absolute best. Business Karma. Generosity begets generosity. Always add value. Take care of people. Make every business better than you found it.
+                These are the values I bring to every engagement, every conversation, every piece of content I create:
               </p>
-              <p>
+              <ol className="space-y-4 list-none pl-0">
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">❤️</span>
+                  <span><strong>Love everything and everyone with genuine appreciation.</strong> Gratitude is not a nice-to-have&thinsp;&mdash;&thinsp;it is the foundation. I teach others to do the same.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">🔥</span>
+                  <span><strong>Delusional optimism.</strong> Anything truly is possible. Conceive, Believe, Achieve.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">⚡</span>
+                  <span><strong>Focused, faith-full intention.</strong> There is untapped power in the word <em>Decide</em>. There is a universal conspiracy for or against our success&thinsp;&mdash;&thinsp;we decide which one.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">📈</span>
+                  <span><strong>Contagious energy.</strong> Live life vibrating with optimism, to the point others around you are elevated by it. Be their spark and fan it into a flame of passion.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">🔧</span>
+                  <span><strong>Bold assertive disruption.</strong> It is cool to be BAD. Take decisive action. Disrupt the status quo.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">🎯</span>
+                  <span><strong>Exponential growth through leverage.</strong> Find THE place to focus for exponential returns.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">💪</span>
+                  <span><strong>Gradual continuous improvement.</strong> Small daily gains compound into massive transformation. Show up every single day.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-xl flex-shrink-0">🏆</span>
+                  <span><strong>You win or you learn.</strong> Everything in life is training you forward. Embrace the lessons in everything.</span>
+                </li>
+              </ol>
+              <p className="italic text-dark/80">
+                These are not a mission statement on a wall. They are how I show up&thinsp;&mdash;&thinsp;in every client engagement, every piece of content, every conversation. If you&apos;ve worked with me, you&apos;ve felt them. If you haven&apos;t yet, you will.
+              </p>
+              <p className="italic text-dark/80">
                 And underneath all of them, one driving force: a sincere desire to have a significant impact on humanity at scale.
               </p>
             </div>
