@@ -4,10 +4,6 @@ import { useState, useEffect, FormEvent } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_PERFECTASIN_API_URL ||
-  "https://titleperfect-api-119656431080.us-central1.run.app";
-
 interface ReportData {
   htmlContent: string;
   overallGrade: string;
@@ -33,7 +29,7 @@ export default function SharedReportPage() {
     async function fetchReport() {
       try {
         const res = await fetch(
-          `${API_BASE}/api/v1/report/view/${shareToken}`
+          `/api/report/view/${shareToken}`
         );
 
         if (res.status === 404) {
@@ -76,7 +72,7 @@ export default function SharedReportPage() {
 
     try {
       const res = await fetch(
-        `${API_BASE}/api/v1/report/view/${shareToken}?password=${encodeURIComponent(password)}`
+        `/api/report/view/${shareToken}?password=${encodeURIComponent(password)}`
       );
 
       if (res.status === 403) {
