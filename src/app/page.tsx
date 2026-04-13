@@ -422,12 +422,12 @@ export default function Home() {
               </p>
               <p className="text-xs text-center">
                 <a
-                  href="https://dashboard.ravingfans.ai"
+                  href="https://dashboard.ravingfans.ai/public"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-dark font-semibold transition-colors"
                 >
-                  See the team working live &rarr; dashboard.ravingfans.ai
+                  See the team working live &rarr; dashboard.ravingfans.ai/public
                 </a>
               </p>
             </div>
