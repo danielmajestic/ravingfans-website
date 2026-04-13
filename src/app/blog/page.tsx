@@ -19,20 +19,69 @@ export default function BlogPage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="bg-navy pt-28 pb-16 sm:pt-32 sm:pb-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      {/* Hero CTA */}
+      <section className="bg-navy pt-28 pb-12 sm:pt-32 sm:pb-14">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+          {/* Blog intro */}
           <h1
-            className="text-4xl sm:text-5xl font-bold text-white mb-4"
+            className="text-3xl sm:text-4xl font-bold text-white mb-3"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Blog
+            Listing Teardowns. Real Data. No Fluff.
           </h1>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Listing teardowns, growth strategy, and lessons from 27 years in
-            e-commerce. No fluff. No generic advice. Real analysis on real
-            products.
+          <p className="text-gray-300 leading-relaxed mb-8">
+            Every article below is backed by real P&amp;L numbers from real brands. Want the same analysis on yours?
           </p>
+
+          {/* Separator */}
+          <div className="border-t border-gray-700 mb-8" />
+
+          {/* Audit CTA */}
+          <div className="bg-navy/50 border border-gray-700 rounded-xl p-6 sm:p-8 text-left">
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              <strong className="text-white">Get your complimentary 18-page $5,000 ASIN Audit&#8482;</strong>{" "}
+              — the same AI-powered diagnostic that finds thousands in hidden revenue on Amazon listings.
+            </p>
+            <a
+              href="https://perfectasin.com/audit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-white font-semibold rounded-lg hover:bg-gold-light transition-colors mb-6 w-full sm:w-auto justify-center sm:justify-start"
+            >
+              Get Your Free Audit
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M6 4l4 4-4 4" />
+              </svg>
+            </a>
+
+            <p className="text-gray-300 mb-4 leading-relaxed text-sm">
+              <strong className="text-white">Want expert help?</strong> I work with Amazon brands on listing optimization, advertising strategy, and conversion rate optimization.
+            </p>
+            <a
+              href="https://ravingfans.ai/call"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 border border-gold text-gold font-semibold rounded-lg hover:bg-gold hover:text-white transition-colors mb-5 text-sm w-full sm:w-auto justify-center sm:justify-start"
+            >
+              Book a Consultation
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M6 4l4 4-4 4" />
+              </svg>
+            </a>
+
+            <p className="text-gray-400 text-xs">
+              <strong className="text-gray-300">Stay connected:</strong>{" "}
+              <a
+                href="https://www.linkedin.com/in/dan-matejsek/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold hover:underline"
+              >
+                Find me on LinkedIn
+              </a>{" "}
+              for weekly insights on Amazon optimization and e-commerce growth.
+            </p>
+          </div>
         </div>
       </section>
 
