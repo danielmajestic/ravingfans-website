@@ -20,25 +20,25 @@ export default function BlogPage() {
   return (
     <>
       {/* Hero CTA */}
-      <section className="bg-navy pt-28 pb-12 sm:pt-32 sm:pb-14">
+      <section className="bg-navy pt-24 pb-8 sm:pt-28 sm:pb-10">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
           {/* Blog intro */}
           <h1
-            className="text-3xl sm:text-4xl font-bold text-white mb-3"
+            className="text-3xl sm:text-4xl font-bold text-white mb-2"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Listing Teardowns. Real Data. No Fluff.
           </h1>
-          <p className="text-gray-300 leading-relaxed mb-8">
+          <p className="text-gray-300 leading-relaxed mb-5">
             Every article below is backed by real P&amp;L numbers from real brands. Want the same analysis on yours?
           </p>
 
           {/* Separator */}
-          <div className="border-t border-gray-700 mb-8" />
+          <div className="border-t border-gray-700 mb-5" />
 
           {/* Audit CTA */}
-          <div className="bg-navy/50 border border-gray-700 rounded-xl p-6 sm:p-8 text-left">
-            <p className="text-gray-300 mb-4 leading-relaxed">
+          <div className="bg-navy/50 border border-gray-700 rounded-xl p-5 sm:p-6 text-left">
+            <p className="text-gray-300 mb-3 leading-relaxed text-sm">
               <strong className="text-white">Get your complimentary 18-page $5,000 ASIN Audit&#8482;</strong>{" "}
               — the same AI-powered diagnostic that finds thousands in hidden revenue on Amazon listings.
             </p>
@@ -46,7 +46,7 @@ export default function BlogPage() {
               href="https://perfectasin.com/audit"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-white font-semibold rounded-lg hover:bg-gold-light transition-colors mb-6 w-full sm:w-auto justify-center sm:justify-start"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold text-white font-semibold rounded-lg hover:bg-gold-light transition-colors mb-4 w-full sm:w-auto justify-center sm:justify-start text-sm"
             >
               Get Your Free Audit
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -54,14 +54,14 @@ export default function BlogPage() {
               </svg>
             </a>
 
-            <p className="text-gray-300 mb-4 leading-relaxed text-sm">
+            <p className="text-gray-300 mb-3 leading-relaxed text-sm">
               <strong className="text-white">Want expert help?</strong> I work with Amazon brands on listing optimization, advertising strategy, and conversion rate optimization.
             </p>
             <a
               href="https://ravingfans.ai/call"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 border border-gold text-gold font-semibold rounded-lg hover:bg-gold hover:text-white transition-colors mb-5 text-sm w-full sm:w-auto justify-center sm:justify-start"
+              className="inline-flex items-center gap-2 px-5 py-2 border border-gold text-gold font-semibold rounded-lg hover:bg-gold hover:text-white transition-colors mb-3 text-sm w-full sm:w-auto justify-center sm:justify-start"
             >
               Book a Consultation
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">

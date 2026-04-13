@@ -390,7 +390,7 @@ export default function Home() {
                 },
                 {
                   name: "Ivy",
-                  image: "/images/team/ivy-ashford.png",
+                  image: "/images/team/ivy-ashford.jpg",
                   role: "SEO & Organic Growth Strategist",
                   desc: "Ivy builds the growth that doesn\u2019t stop when you stop paying for it. Technical audits, keyword architecture, content engines, on-page optimization \u2014 the organic infrastructure that compounds month over month. While Alex drives traffic today, Ivy is planting the seeds that bring it for free tomorrow.",
                 },
