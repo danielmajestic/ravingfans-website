@@ -235,7 +235,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== SECTION 4: THE TRANSFORMATION (CASE STUDY) ===== */}
+      {/* ===== SECTION 4: THE TRANSFORMATION (CASE STUDY) — COMMENTED OUT FOR EDITS =====
       <section className="py-20 sm:py-28 bg-navy-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <ScrollFadeIn>
@@ -300,6 +300,7 @@ export default function Home() {
           </ScrollFadeIn>
         </div>
       </section>
+      ===== END COMMENTED OUT CASE STUDY ===== */}
 
       {/* ===== SECTION 5: MEET THE TEAM ===== */}
       <section className="py-20 sm:py-28 bg-white">
