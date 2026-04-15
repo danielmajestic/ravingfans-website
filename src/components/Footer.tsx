@@ -18,11 +18,13 @@ export default function Footer() {
                   Team
                 </Link>
               </li>
+              {/*
               <li>
                 <Link href="/results" className="text-gray-400 text-sm hover:text-white transition-colors">
                   Results
                 </Link>
               </li>
+              */}
             </ul>
           </div>
           <div>
