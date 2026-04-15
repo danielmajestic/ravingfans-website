@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "We've been burned by agencies before.",
-    a: "I hear this constantly — and I understand the skepticism. Here's the difference: I own your P&L like it's mine. Ask Brad at TrueHope — I'm more committed to their profitability than some of their own team. I don't deliver reports and disappear. I embed in your business, understand your numbers, and make decisions based on what drives profit, not what looks good in a deck.",
+    a: "I hear this constantly — and I understand the skepticism. Here's the difference: I own your P&L like it's mine. Ask any of my clients — I'm more committed to their profitability than some of their own team. I don't deliver reports and disappear. I embed in your business, understand your numbers, and make decisions based on what drives profit, not what looks good in a deck.",
   },
   {
     q: "$10K/month is a lot.",

@@ -64,7 +64,7 @@ interface ReportSummary {
 const MOCK_REPORTS: ReportSummary[] = [
   {
     reportId: "rpt_001", asin: "B0B44TJQZX",
-    productTitle: "TrueHope EMPowerplus Advanced - Multi-Vitamin & Mineral Supplement",
+    productTitle: "Premium Multi-Vitamin & Mineral Supplement - Advanced Formula",
     overallGrade: "C", overallScore: 72, generatedAt: "2026-03-22T18:30:00Z", modulesCompleted: 5,
     moduleScores: { title: { score: 58, grade: "F" }, bullets: { score: 65, grade: "D" }, description: { score: 70, grade: "C" }, heroImage: { score: 78, grade: "C" }, price: { score: 82, grade: "B" } },
     tags: { linkedinName: "Mike Glick", company: "Goode Health", source: "linkedin_carousel", notes: "First audit for Mike" },

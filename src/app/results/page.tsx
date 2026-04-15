@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Client Results | RavingFans.ai",
     description:
-      "TrueHope: $25K/month in new Amazon revenue, a complete customer acquisition system, and a team that finally thinks profit-first. Real results. Real numbers.",
+      "Real results from real CPG clients. Case studies coming soon.",
     url: "https://www.ravingfans.ai/results",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Client Results — RavingFans.ai" }],
   },

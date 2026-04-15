@@ -565,7 +565,7 @@ export default function Home() {
                 But the work I&apos;m most proud of isn&apos;t about the numbers. It&apos;s about the people.
               </p>
               <p>
-                At TrueHope, my client told me straight: if we can&apos;t generate new revenue, people lose their jobs. Real people with families. That&apos;s the kind of work that gets me up at 2:30 in the morning. Not because I have to. Because I want to.
+                One of my clients told me straight: if we can&apos;t generate new revenue, people lose their jobs. Real people with families. That&apos;s the kind of work that gets me up at 2:30 in the morning. Not because I have to. Because I want to.
               </p>
               <p>
                 I believe in what I call Business Karma. When you&apos;re generous with the value you create — when you genuinely try to make people&apos;s lives better — it compounds and comes back to you. That&apos;s not a strategy. That&apos;s a conviction. One of my favorite proverbs says it plainly: generosity begets generosity, and stinginess impoverishes.
