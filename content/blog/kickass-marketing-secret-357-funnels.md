@@ -14,7 +14,7 @@ published: true
 
 ## What is a Marketing Funnel?
 
-It never ceases to amaze me how little people in our industries — Product Marketing, Digital Marketing, eCommerce, and Growth Marketing — know about the **true mechanics of funnels**.
+It never ceases to amaze me how little people in our industries (Product Marketing, Digital Marketing, eCommerce, and Growth Marketing) know about the **true mechanics of funnels**.
 
 I think many people have seen the graphic diagram of a very large funnel opening on the top that gradually gets narrower along the way down to the spout.
 
@@ -26,7 +26,7 @@ I've even met people freshly hired into our Marketing Team who throw around the 
 
 For me, a funnel is best thought of in real-time when thinking about a website visitor's journey. When I used to speak at workshops or Masterminds, I would use this analogy:
 
-Imagine a website is like a flat piece of wood, like a table. Looking down at the table from above, imagine each and every link or button — basically anything that the user can click or tap — is the top of a little funnel away from that page. For me, the funnels on the website are those. Each one leads the visitor down a path.
+Imagine a website is like a flat piece of wood, like a table. Looking down at the table from above, imagine each and every link or button (basically anything that the user can click or tap) is the top of a little funnel away from that page. For me, the funnels on the website are those. Each one leads the visitor down a path.
 
 Now, imagine that the website visitor is a beautiful shiny marble. Our marble may not know where she wants to go, and **it is our job to help the marble find her way to the conversion**.
 
@@ -57,7 +57,7 @@ For Amazon, in their Brand Analytics Dashboard they call this **Customer Journey
 
 No wonder everyone is starting to get confused.
 
-## Kickass Marketing Secret #1 — Conversion Is Everything and It Starts with a Four-Letter Acronym
+## Kickass Marketing Secret #1: Conversion Is Everything and It Starts with a Four-Letter Acronym
 
 There's another concept you need to grasp. You've probably seen it, heard it, and think you know everything about it. Before I reveal this gem of an acronym please do not tap/swipe/button push me away when you see it. I promise you likely haven't heard it presented quite like this before.
 
@@ -73,7 +73,7 @@ It's happened to you. Be honest! Some crafty Word Smith (aka Copy Writer) caught
 
 So, yes we have to get their Attention. On your website you need to help them self-qualify. Make the hole this marble needs/wants to find **glow so bright she gets attracted to it like a magnet**.
 
-I'll go over a concept I developed decades ago called Click Momentum in more detail — it increases Buyer Intention Velocity and develops into significant Buyer Momentum.
+I'll go over a concept I developed decades ago called Click Momentum in more detail; it increases Buyer Intention Velocity and develops into significant Buyer Momentum.
 
 When writing an ad this is the Hook. You have to get them to stop watching that silly cat video or that chick climbing into the oven. The type of Hook is specific to the prospect's mental and emotional state in the moment. Sometimes you don't know what will work the best until you run hundreds or thousands of tests. Which leads me to:
 
@@ -83,7 +83,7 @@ I've got so many hilariously funny stories to tell you while I go over some very
 
 ## Interest, Desire, and the Three Sales You Must Make
 
-You need to then build interest. But wait — let me reveal something of greater importance beforehand.
+You need to then build interest. But wait, let me reveal something of greater importance beforehand.
 
 Along the way from Interest to Desire and then to Action, we have to make sure we nail these **three most important things**:
 
@@ -101,7 +101,7 @@ So, somewhere between #1 and #2 we shift to DESIRE and then we build that Buyer 
 
 ## Removing Friction: The Shift from Interest to Desire
 
-In the shift from Interest to Desire, you need to handle all of their objections — **remove all of the friction**. Help them shift into the belief that they can not only have the CHANGE, but they can have it now. There are loads of friction-reducing elements you can use. I'll go over them in two case studies... there will be videos with Brand Reveals.
+In the shift from Interest to Desire, you need to handle all of their objections: **remove all of the friction**. Help them shift into the belief that they can not only have the CHANGE, but they can have it now. There are loads of friction-reducing elements you can use. I'll go over them in two case studies... there will be videos with Brand Reveals.
 
 You will not believe what some 9-figure and 8-figure brands are doing BADLY right now... like today!
 
@@ -113,7 +113,7 @@ I'm just getting started. The day everything for me changes and I finally go pub
 
 You my dear friend... if you love Marketing, Growing Businesses for yourself or others, you must follow along right now.
 
-— Dan Matejsek
+- Dan Matejsek
 
 ---
 

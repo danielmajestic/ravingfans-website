@@ -14,17 +14,17 @@ Insights from just a normal dude who's done this hundreds of times and sold a co
 
 The #1 Secret to profiting insanely on Amazon or .com website (Direct To Consumer)?
 
-## Market Product Fit — Not Product Market Fit
+## Market Product Fit, Not Product Market Fit
 
 Let me explain. The standard approach starts with Product. But you need to **ALWAYS start with the Market**.
 
-It goes against standard, accepted marketing practices. *Create a great product, great brand, and they will come.* Kind of like the Kevin Costner movie "Field of Dreams" — if you build it, they will come.
+It goes against standard, accepted marketing practices. *Create a great product, great brand, and they will come.* Kind of like the Kevin Costner movie "Field of Dreams": if you build it, they will come.
 
 Wrong.
 
 ## Before You Do Anything... Analyze the Market
 
-Before you do anything — ANYTHING — **analyze the crap out of the MARKET**. Period.
+Before you do anything, ANYTHING, **analyze the crap out of the MARKET**. Period.
 
 - Who are they? (Ideal Customer Profile / Avatar)
 - How big is the market?
@@ -48,11 +48,11 @@ The extreme example is DrinkBrez. Nick Shackelford's product literally gets you 
 
 But what he's really selling is a **change of state**. Going from stressed out with anxiety to mellowed out and checked out. An easier sale than many...
 
-## Build After You Know — Not Before
+## Build After You Know, Not Before
 
 Once you have all this insight, *then* build the product, build the brand, build the content around the two of those in such a way that it is simply packaging that your Ideal Customer is already expecting to see.
 
-Conversion/purchase is just a natural extension — a natural byproduct (a reward to you, really) — for giving them **EXACTLY what they want**.
+Conversion/purchase is just a natural extension, a natural byproduct (a reward to you, really), for giving them **EXACTLY what they want**.
 
 ## How We Built a $100M Exit in 7 Years
 

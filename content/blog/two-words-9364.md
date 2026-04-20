@@ -13,15 +13,15 @@ published: true
 
 Here's what most Amazon sellers get wrong about listing optimization: they think it's a one-and-done project. Fix the title, rewrite the bullets, upload better images, move on.
 
-That's a mistake that's leaving you thousands of dollars on the table — even on listings you've already optimized. And I can prove it with Amazon's own data.
+That's a mistake that's leaving you thousands of dollars on the table, even on listings you've already optimized. And I can prove it with Amazon's own data.
 
 ## The Backstory: A Listing I'd Already Transformed
 
 Before I get to the two-word change, you need to understand where this listing started. Because this isn't a story about fixing a broken listing. This is a story about finding money in a listing that was already working.
 
-I took on this product — a nutritional supplement in a competitive category on Amazon — and spent several weeks doing a comprehensive manual optimization. Title rewrite. Bullet restructuring. Keyword strategy. Backend search terms. The full treatment.
+I took on this product, a nutritional supplement in a competitive category on Amazon, and spent several weeks doing a comprehensive manual optimization. Title rewrite. Bullet restructuring. Keyword strategy. Backend search terms. The full treatment.
 
-The results were significant. The listing's Unit Session Percentage — Amazon's term for conversion rate, measured as units sold per session — went from a 35% baseline to peaks as high as 111%, eventually stabilizing at around 64%.
+The results were significant. The listing's Unit Session Percentage (Amazon's term for conversion rate, measured as units sold per session) went from a 35% baseline to peaks as high as 111%, eventually stabilizing at around 64%.
 
 I nearly doubled the conversion rate through manual CRO work. The listing went from underperforming to one of the stronger converters in its category.
 
@@ -31,11 +31,11 @@ But I don't believe in "done." I believe in "better." So I ran one more test.
 
 ## The Two-Word Experiment
 
-Using Amazon's Manage Your Experiments tool, I set up a simple A/B title test. Version A was the title I'd already optimized — the one that had helped nearly double conversion. Version B had two words swapped. That's it. Same keywords. Same structure. Just two words repositioned.
+Using Amazon's Manage Your Experiments tool, I set up a simple A/B title test. Version A was the title I'd already optimized, the one that had helped nearly double conversion. Version B had two words swapped. That's it. Same keywords. Same structure. Just two words repositioned.
 
-Amazon ran the test from November 6 through December 31, 2025 — eight weeks of data across over 20,000 unique visitors per variation. This was a statistically meaningful test on a live, revenue-generating listing.
+Amazon ran the test from November 6 through December 31, 2025, eight weeks of data across over 20,000 unique visitors per variation. This was a statistically meaningful test on a live, revenue-generating listing.
 
-And here's the thing about the timing: this test ran through the holiday season. For a supplement brand, that's arguably the worst time to test — people are buying gifts, not vitamins. If anything, the results are understated.
+And here's the thing about the timing: this test ran through the holiday season. For a supplement brand, that's arguably the worst time to test; people are buying gifts, not vitamins. If anything, the results are understated.
 
 ## The Results
 
@@ -61,7 +61,7 @@ If a two-word change on an already-optimized listing can find $9,364 per year, w
 
 Think about that honestly. When did you last rewrite your title? Your bullets? When did you last look at your Unit Session Percentage and ask "can I push this higher?"
 
-Most sellers I talk to haven't touched their listing copy in 12-18 months. Some have never optimized it at all — they wrote it during their product launch and moved on to PPC.
+Most sellers I talk to haven't touched their listing copy in 12-18 months. Some have never optimized it at all; they wrote it during their product launch and moved on to PPC.
 
 Every day that listing sits unoptimized is revenue you're choosing not to collect.
 
@@ -81,23 +81,23 @@ This product sells roughly 600 units a month. It's a solid performer, but it's n
 - 5,000 units/month → ~$244,000/year
 - 10,000 units/month → ~$489,000/year
 
-**At 15-25% relative lift (a comprehensive listing overhaul — which is what I achieved on this same listing before the experiment):**
+**At 15-25% relative lift (a comprehensive listing overhaul, which is what I achieved on this same listing before the experiment):**
 
 Now you're talking about revenue increases that can redefine a business.
 
-And remember — I'm only talking about the title here. The title represents roughly 18% of your listing's total conversion impact. There are five other major levers — main image, price, bullets, gallery images, and reviews — that account for the other 67%.
+And remember, I'm only talking about the title here. The title represents roughly 18% of your listing's total conversion impact. There are five other major levers (main image, price, bullets, gallery images, and reviews) that account for the other 67%.
 
 ## Revenue Per Session: The Metric Amazon Actually Cares About
 
 Here's a concept that will change how you think about your Amazon business: **Revenue Per Session is everything.**
 
-Amazon has a finite number of sessions — eyeballs — to distribute every day. (I say "sessions" and not "visitors" because the same shopper can generate multiple sessions in a day.) Amazon's algorithm is essentially asking one question about your listing at all times: "How much money does this product make us per session we send it?"
+Amazon has a finite number of sessions (eyeballs) to distribute every day. (I say "sessions" and not "visitors" because the same shopper can generate multiple sessions in a day.) Amazon's algorithm is essentially asking one question about your listing at all times: "How much money does this product make us per session we send it?"
 
 When you increase your conversion rate, you're not just selling more units. You're sending Amazon a signal: "Every session you give me is worth more than what you're giving my competitor."
 
-Amazon responds to that signal. Higher Revenue Per Session means preferential treatment — better organic placement, more favorable ad auction positioning, more sessions allocated to your listing. It's a virtuous cycle.
+Amazon responds to that signal. Higher Revenue Per Session means preferential treatment: better organic placement, more favorable ad auction positioning, more sessions allocated to your listing. It's a virtuous cycle.
 
-This is exactly what happened with the listing I optimized. Going from 35% to 64% Unit Session Percentage didn't just increase direct sales — it fundamentally changed how Amazon treated the listing. More organic impressions. Better search position. A compounding flywheel of revenue growth.
+This is exactly what happened with the listing I optimized. Going from 35% to 64% Unit Session Percentage didn't just increase direct sales; it fundamentally changed how Amazon treated the listing. More organic impressions. Better search position. A compounding flywheel of revenue growth.
 
 And then the two-word tweak pushed it even further.
 

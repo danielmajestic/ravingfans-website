@@ -10,7 +10,7 @@ readTime: "8 min read"
 published: true
 ---
 
-Three days ago, Unilever acquired Grüns — a supplement brand that makes dark green gummy bears — for **$1.2 billion**.
+Three days ago, Unilever acquired Grüns, a supplement brand that makes dark green gummy bears, for **$1.2 billion**.
 
 The company was founded in 2023. It didn't exist three years ago.
 
@@ -26,7 +26,7 @@ I've been thinking about this a lot lately because I'm currently in discussions 
 
 They've shifted Amazon and e-commerce from an afterthought to a strategic priority.
 
-They recognized that their Amazon channel — which represents a small fraction of total revenue today — is the **single biggest lever for enterprise value creation** between now and exit.
+They recognized that their Amazon channel, which represents a small fraction of total revenue today, is the **single biggest lever for enterprise value creation** between now and exit.
 
 That shift in mindset is worth more than any ad campaign. And the dynamics driving it aren't unique to one company. They apply to every supplement brand selling on Amazon right now.
 
@@ -46,11 +46,11 @@ PE firms are starting to see this differently. And the ones that get it right ar
 
 ## How PE Firms Actually Think About Amazon
 
-When a private equity firm acquires a supplement company, they don't just look at revenue. They look at EBITDA. And they value the company based on a multiple of that EBITDA — typically **eight to twelve times** for VMS companies.
+When a private equity firm acquires a supplement company, they don't just look at revenue. They look at EBITDA. And they value the company based on a multiple of that EBITDA, typically **eight to twelve times** for VMS companies.
 
 Here's where it gets interesting.
 
-If your Amazon channel adds one million dollars in EBITDA contribution through better margins, improved advertising efficiency, or a smarter channel strategy (like category domination — tomorrow's article), that doesn't just add one million in value. It adds **eight to twelve million dollars in enterprise value**. Because the entire company gets valued at that multiple.
+If your Amazon channel adds one million dollars in EBITDA contribution through better margins, improved advertising efficiency, or a smarter channel strategy (like category domination, tomorrow's article), that doesn't just add one million in value. It adds **eight to twelve million dollars in enterprise value**. Because the entire company gets valued at that multiple.
 
 Let me say that again.
 
@@ -72,7 +72,7 @@ PE firms don't get excited about revenue growth that comes with margin compressi
 
 Here's something that doesn't get talked about enough in the Amazon world.
 
-If you're a vertically integrated manufacturer — meaning you own the production facility and control your own cost of goods — you have a **structural advantage on Amazon** that most brands can only dream about.
+If you're a vertically integrated manufacturer (meaning you own the production facility and control your own cost of goods), you have a **structural advantage on Amazon** that most brands can only dream about.
 
 On Amazon, referral fees (fifteen percent), FBA fulfillment (three to five dollars per unit), and advertising costs are relatively fixed. COGS is the primary lever for margin improvement. When a typical Amazon brand sources from a contract manufacturer, their COGS is dictated by someone else's pricing. They're price takers.
 
@@ -80,7 +80,7 @@ But a manufacturer who makes their own product can optimize cost of goods at the
 
 **Owning that lever is a moat.** And it's one of the reasons we're seeing increased PE acquisition activity in vertically integrated supplement manufacturers. The company that makes the product AND sells it directly on Amazon captures value at every step of the chain.
 
-This is also why the Grüns story, while remarkable, is actually the exception that proves the rule. Grüns used contract manufacturing and reached $1.2 billion on brand strength and execution alone. *Imagine what a vertically integrated manufacturer with the same e-commerce execution could build* — with structurally better margins from day one.
+This is also why the Grüns story, while remarkable, is actually the exception that proves the rule. Grüns used contract manufacturing and reached $1.2 billion on brand strength and execution alone. *Imagine what a vertically integrated manufacturer with the same e-commerce execution could build*, with structurally better margins from day one.
 
 ## Subscribe & Save Is the Recurring Revenue Model PE Firms Love
 
@@ -94,7 +94,7 @@ The first brand has a floor. The second brand starts from zero every month.
 
 > Every subscriber you add improves your contribution margin over time because your advertising cost per unit decreases with each renewal. That's a compounding effect that flows directly through to EBITDA.
 
-Grüns understood this intuitively — ninety-five percent of their customers use the product four to six times per week, and their DTC subscription model was a core driver of the **revenue quality that justified the $1.2 billion price tag**.
+Grüns understood this intuitively: ninety-five percent of their customers use the product four to six times per week, and their DTC subscription model was a core driver of the **revenue quality that justified the $1.2 billion price tag**.
 
 ## Amazon Data Feeds the Entire Business
 
@@ -102,7 +102,7 @@ This is the part that most operators miss and most board members care about.
 
 Amazon isn't just a sales channel. It's the world's largest consumer research panel for health and wellness.
 
-**Search Query Performance data** tells you exactly what consumers are searching for, clicking on, and buying. If "magnesium glycinate for sleep" searches are up forty percent year over year and you don't have that product, that's a product development signal — not just an Amazon insight.
+**Search Query Performance data** tells you exactly what consumers are searching for, clicking on, and buying. If "magnesium glycinate for sleep" searches are up forty percent year over year and you don't have that product, that's a product development signal, not just an Amazon insight.
 
 **Review analysis** reveals what consumers love and hate about your products in their own words. That's voice-of-customer data that product development and marketing teams would pay a research firm six figures to collect.
 
@@ -118,7 +118,7 @@ Most supplement companies outsource their Amazon channel to an agency. Some agen
 
 But an agency manages your account. **A leader owns your P&L.**
 
-An agency optimizes for the metrics you tell them to optimize for. If you say grow revenue, they'll grow revenue — they might crush your margins doing it, but the number goes up. If you say hit a ROAS target, they'll hit it — they might leave growth on the table, but the efficiency number looks good.
+An agency optimizes for the metrics you tell them to optimize for. If you say grow revenue, they'll grow revenue; they might crush your margins doing it, but the number goes up. If you say hit a ROAS target, they'll hit it; they might leave growth on the table, but the efficiency number looks good.
 
 What PE-backed companies need is someone who owns the complete picture. Someone who connects advertising spend to contribution margin. Connects fulfillment costs to unit economics. Connects pricing strategy to MAP enforcement and channel integrity. And connects all of it to EBITDA.
 

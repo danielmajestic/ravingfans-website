@@ -10,13 +10,13 @@ readTime: "8 min read"
 published: true
 ---
 
-[Yesterday I wrote](/blog/private-equity-amazon-health-wellness) about why PE firms are betting big on Amazon in health and wellness. I opened with the Grüns story — a green gummy bear brand that went from zero to a $1.2 billion acquisition in under three years.
+[Yesterday I wrote](/blog/private-equity-amazon-health-wellness) about why PE firms are betting big on Amazon in health and wellness. I opened with the Grüns story, a green gummy bear brand that went from zero to a $1.2 billion acquisition in under three years.
 
 What I didn't say is this: **Grüns could only build one brand.**
 
 They used contract manufacturing. They had one product line, one brand identity, one position in the market. And they executed it brilliantly. Brilliantly enough for Unilever to write a $1.2 billion check.
 
-But a vertically integrated manufacturer — one that owns the factory, controls the production line, and sets its own cost of goods — can do something Grüns never could. It can build four brands. Or five. Or six. Each one targeting a different buyer persona within the same category. Each one ranking for its own keyword lane. Each one coming off the same production line at essentially the same COGS.
+But a vertically integrated manufacturer, one that owns the factory, controls the production line, and sets its own cost of goods, can do something Grüns never could. It can build four brands. Or five. Or six. Each one targeting a different buyer persona within the same category. Each one ranking for its own keyword lane. Each one coming off the same production line at essentially the same COGS.
 
 That's not a listing optimization strategy. **That's category domination.** And it's the single most powerful Amazon growth lever available to manufacturers that almost nobody talks about publicly.
 
@@ -84,7 +84,7 @@ This strategy works on two levels simultaneously, and both feed Amazon's algorit
 
 ### Conversion Rate Through ICP Alignment
 
-When a buyer searching for "lavender essential oil therapeutic grade" lands on a Healing Solutions listing that speaks directly to her in every element — the title, the hero image, the bullet points, the A+ Content, the reviews — **she converts at a higher rate** than she would on a generic listing trying to be everything to everyone.
+When a buyer searching for "lavender essential oil therapeutic grade" lands on a Healing Solutions listing that speaks directly to her in every element (the title, the hero image, the bullet points, the A+ Content, the reviews) **she converts at a higher rate** than she would on a generic listing trying to be everything to everyone.
 
 Amazon's algorithm rewards conversion rate above almost everything else. Higher conversion means higher organic ranking. Higher organic ranking means more visibility. More visibility means more sales. The flywheel spins faster when the listing is built for exactly the person who typed that exact search phrase.
 

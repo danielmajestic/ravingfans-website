@@ -20,9 +20,9 @@ Or Marketing Professionals who oversee Amazon Channel Managers or Agency Partner
 
 You can use this to create savings in your logistics for Amazon or even how you handle your wholesale distributors' orders for your Brand.com site.
 
-## Amazon FBA Tweak #1 — Convert SKUs to Use UPCs Instead of FNSKU Stickers
+## Amazon FBA Tweak #1: Convert SKUs to Use UPCs Instead of FNSKU Stickers
 
-Yes, this sounds silly to some of you — this brand was having their 3PL provider put white FNSKU stickers over their UPC labels. **$0.50 per unit** plus labor (I didn't even factor that into the numbers above).
+Yes, this sounds silly to some of you; this brand was having their 3PL provider put white FNSKU stickers over their UPC labels. **$0.50 per unit** plus labor (I didn't even factor that into the numbers above).
 
 *Why would they do that?*
 
@@ -36,9 +36,9 @@ Amazon creates a new SKU for your existing SKU and they append a hyphen and the 
 
 > This shipment total savings = 1,440 x $0.50 = **$720**
 
-![Showing the view inside the Amazon Send to Amazon page — converted to UPC Code for scans and changed Master Case Size](/blog/images/three-fba-tweaks/stickerless-sku.png)
+![Showing the view inside the Amazon Send to Amazon page, converted to UPC Code for scans and changed Master Case Size](/blog/images/three-fba-tweaks/stickerless-sku.png)
 
-## Amazon FBA Tweak #2 — Maximize Master Case Size (Up to 50 lbs)
+## Amazon FBA Tweak #2: Maximize Master Case Size (Up to 50 lbs)
 
 This is another no-brainer fix. How many bottles of pills did they have in the Master Case size?
 
@@ -58,13 +58,13 @@ I had the 3PL rework it to get the bottles into a larger case. Only instruction:
 
 **Answer: 120 bottles is our new Master Case Quantity**, in a larger box.
 
-## Amazon FBA Tweak #3 — Ship Using Small Parcel Delivery Instead of LTL (Pallets)
+## Amazon FBA Tweak #3: Ship Using Small Parcel Delivery Instead of LTL (Pallets)
 
 Less Than Truckload is LTL, and that is what the industry calls a pallet. Your pallet, along with other people's pallets, shares 1 truck to make a load. Sure, you get to send all of your stuff in 1 shipment to Amazon. Easy for you, right?
 
 Well, there are many reasons not to do this.
 
-![Amazon LTL — Bad choice!](/blog/images/three-fba-tweaks/ltl-bad-choice.png)
+![Amazon LTL, Bad choice!](/blog/images/three-fba-tweaks/ltl-bad-choice.png)
 
 If you can avoid this (LTL) method, do so. There are several reasons why.
 
@@ -72,11 +72,11 @@ If you can avoid this (LTL) method, do so. There are several reasons why.
 
 **LTL arrives on a truck and quite often sits in a freight yard at Amazon waiting for weeks to get checked in.** The shipment before this last one, where I saved them money, sat for 5 weeks in a trailer in 85-90°F heat in Homestead, FL. This is not good for vitamins that are sensitive to heat.
 
-Once the LTL shipment finally gets checked in, it then gets redirected to the Fulfillment Centers around the country. Yet more time — 3-4 weeks more — and possibly more exposure to heat for sensitive cargo. The shipment in question, before the savings shipment, was shipped to **76 different FC locations** after it was checked in.
+Once the LTL shipment finally gets checked in, it then gets redirected to the Fulfillment Centers around the country. Yet more time (3-4 weeks more) and possibly more exposure to heat for sensitive cargo. The shipment in question, before the savings shipment, was shipped to **76 different FC locations** after it was checked in.
 
-LTL Shipments of 1 shipment have placement fees — $259.20 in the above example. It wouldn't make sense to ship 5 separate LTLs due to cost and not enough product for a pallet.
+LTL Shipments of 1 shipment have placement fees, $259.20 in the above example. It wouldn't make sense to ship 5 separate LTLs due to cost and not enough product for a pallet.
 
-*Yes, I know there was a big stink about Placement Fees from sellers on social media about "yet another way Amazon is screwing sellers!"* It's total BS. Amazon is simply having Sellers pay for all of this shipping to distribute the product around the country. We sellers had this for free before placement fees. Now, Amazon is having us pay for that convenience — and rightfully so.
+*Yes, I know there was a big stink about Placement Fees from sellers on social media about "yet another way Amazon is screwing sellers!"* It's total BS. Amazon is simply having Sellers pay for all of this shipping to distribute the product around the country. We sellers had this for free before placement fees. Now, Amazon is having us pay for that convenience, and rightfully so.
 
 ### Why Small Parcel Wins
 
@@ -90,7 +90,7 @@ Nope. It's **$101.35 less expensive** than the 1 LTL.
 
 > **PRO TIP:** This is kind of a cheat when launching new brands in Fast Moving Consumer Packaged Goods niches. Amazon gives priority to geographically available stock. If you play the game fast, they do reward you by selling a crap ton of your product (even if you are new to the niche).
 
-![Small Parcel Delivery of 5 shipments of 1,440 units — 12 cases to 5 locations](/blog/images/three-fba-tweaks/small-parcel-delivery.png)
+![Small Parcel Delivery of 5 shipments of 1,440 units, 12 cases to 5 locations](/blog/images/three-fba-tweaks/small-parcel-delivery.png)
 
 This is exactly how I dominated 5 categories in the Freeze Dried Candy Niche within 6 months' time with a brand new candy brand.
 

@@ -108,7 +108,7 @@ Pick 5 to 10 SKUs for 3P, starting with new products and items Amazon isn't acti
 
 ### Days 61-90: Measure, Optimize, Scale
 
-Enroll pilot SKUs in Subscribe & Save. Analyze pilot performance — **contribution margin, ACoS, Buy Box win rate**. Begin planning the second wave of transitions. Deliver initial reporting to leadership with real numbers, not projections.
+Enroll pilot SKUs in Subscribe & Save. Analyze pilot performance: **contribution margin, ACoS, Buy Box win rate**. Begin planning the second wave of transitions. Deliver initial reporting to leadership with real numbers, not projections.
 
 Measure. Learn. Scale. In that order.
 
@@ -116,7 +116,7 @@ Measure. Learn. Scale. In that order.
 
 Amazon's vendor landscape is shifting. The margin math favors 3P for most supplement SKUs above $15. The compliance burden on 1P is increasing every quarter. And the brands that build 3P infrastructure now will be **positioned years ahead** of those who wait.
 
-If you're a supplement brand founder, a PE operating partner evaluating a portfolio company, or an e-commerce leader staring at a Vendor Central dashboard wondering why your margins keep compressing — the playbook is here.
+If you're a supplement brand founder, a PE operating partner evaluating a portfolio company, or an e-commerce leader staring at a Vendor Central dashboard wondering why your margins keep compressing, the playbook is here.
 
 The brands that move first build the review velocity, the organic rank, and the Subscribe & Save subscriber base that create **durable competitive moats**. The brands that wait inherit whatever's left.
 

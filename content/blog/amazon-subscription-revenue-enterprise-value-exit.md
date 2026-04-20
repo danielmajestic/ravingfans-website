@@ -12,7 +12,7 @@ published: true
 
 <video autoplay muted loop playsinline style="width:100%;border-radius:0.5rem;margin-bottom:2rem;">
   <source src="/blog/images/ev-thesis-header.mp4" type="video/mp4" />
-  <img src="/blog/images/ev-thesis-header.png" alt="The $80M Question — Amazon Subscription Revenue and Enterprise Value at Exit" />
+  <img src="/blog/images/ev-thesis-header.png" alt="The $80M Question: Amazon Subscription Revenue and Enterprise Value at Exit" />
 </video>
 
 On January 21, 2026, a healthcare-focused private equity firm quietly acquired a 34-year-old Arizona supplement company most of the industry has never heard of.

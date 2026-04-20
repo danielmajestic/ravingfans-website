@@ -15,9 +15,9 @@ Grüns Super Greens Gummies is a #1 Best Seller on Amazon. Over 1,000 reviews. B
 
 So why does their listing score a D- when you actually audit it?
 
-I built PerfectASIN — an AI-powered listing intelligence tool — because I spent 11 years optimizing Amazon listings for brands doing $6M to $325M+ in annual revenue, including building and exiting a brand that scaled to $72M annually. I've seen the same mistakes on thousand-dollar listings and hundred-million-dollar listings. The difference is that the big brands are leaving bigger piles of money on the table.
+I built PerfectASIN, an AI-powered listing intelligence tool, because I spent 11 years optimizing Amazon listings for brands doing $6M to $325M+ in annual revenue, including building and exiting a brand that scaled to $72M annually. I've seen the same mistakes on thousand-dollar listings and hundred-million-dollar listings. The difference is that the big brands are leaving bigger piles of money on the table.
 
-Today I'm going to walk you through what a real $5,000 Full ASIN Audit™ looks like, using Grüns as our case study. Everything you see below was generated in about 2 minutes by PerfectASIN, powered by Claude Opus — Anthropic's most advanced AI.
+Today I'm going to walk you through what a real $5,000 Full ASIN Audit™ looks like, using Grüns as our case study. Everything you see below was generated in about 2 minutes by PerfectASIN, powered by Claude Opus, Anthropic's most advanced AI.
 
 Let's get into it.
 
@@ -29,13 +29,13 @@ Let's get into it.
 
 PerfectASIN evaluates five modules, weighted by their actual impact on conversion rate:
 
-- **Hero Image / Gallery: 30%** — Main image, gallery images, videos, A+ Content, alt text
-- **Title: 25%** — Character count, keyword placement, mobile truncation, brand compliance
-- **Price Intelligence: 20%** — Competitive positioning, psychological pricing, left-digit thresholds
-- **Bullet Points: 20%** — Character length, benefit vs. feature ratio, mobile scannability, compliance
-- **Description / A+ Content: 5%** — SEO backup value, keyword density, A+ Content quality
+- **Hero Image / Gallery: 30%**: Main image, gallery images, videos, A+ Content, alt text
+- **Title: 25%**: Character count, keyword placement, mobile truncation, brand compliance
+- **Price Intelligence: 20%**: Competitive positioning, psychological pricing, left-digit thresholds
+- **Bullet Points: 20%**: Character length, benefit vs. feature ratio, mobile scannability, compliance
+- **Description / A+ Content: 5%**: SEO backup value, keyword density, A+ Content quality
 
-These weights are based on conversion impact data from real Amazon listings — main image and gallery drive roughly a third of purchase decisions, title contributes about a fifth, and so on. They're not arbitrary. They come from years of agency data and the research of practitioners like Robert Prime.
+These weights are based on conversion impact data from real Amazon listings; main image and gallery drive roughly a third of purchase decisions, title contributes about a fifth, and so on. They're not arbitrary. They come from years of agency data and the research of practitioners like Robert Prime.
 
 Grüns scored well on the visual side (C- on Hero Image, B- on A+ Content) but got crushed on copy and pricing.
 
@@ -50,13 +50,13 @@ Grüns scored well on the visual side (C- on Hero Image, B- on A+ Content) but g
 
 ![PerfectASIN title analysis showing the 10 Count problem](/blog/images/title-section.png)
 
-The current title ends with "10 Count." But the product isn't 10 gummies — it's 10 individually wrapped packs of 8 gummies each. That's 80 gummies total.
+The current title ends with "10 Count." But the product isn't 10 gummies; it's 10 individually wrapped packs of 8 gummies each. That's 80 gummies total.
 
-At $33.99, a shopper scanning search results who reads "10 Count" calculates roughly $3.40 per gummy. The actual price is $0.42 per gummy — an 8x perception gap.
+At $33.99, a shopper scanning search results who reads "10 Count" calculates roughly $3.40 per gummy. The actual price is $0.42 per gummy, an 8x perception gap.
 
-This matters most in competitive context. If competing brands in the search results are listing their actual piece count (e.g., "60 Gummies" or "90 Count"), Grüns appears dramatically overpriced by comparison — even if the actual per-unit value is competitive or better. In the supplements category, where shoppers routinely compare 3-4 listings side by side and price-per-unit drives purchase decisions, this kind of misperception can quietly kill conversions.
+This matters most in competitive context. If competing brands in the search results are listing their actual piece count (e.g., "60 Gummies" or "90 Count"), Grüns appears dramatically overpriced by comparison, even if the actual per-unit value is competitive or better. In the supplements category, where shoppers routinely compare 3-4 listings side by side and price-per-unit drives purchase decisions, this kind of misperception can quietly kill conversions.
 
-PerfectASIN's optimized title fixes this: "...80 Gummies (10 Individual Packs)" — making the actual value proposition immediately clear in search results.
+PerfectASIN's optimized title fixes this: "...80 Gummies (10 Individual Packs)", making the actual value proposition immediately clear in search results.
 
 ---
 
@@ -64,7 +64,7 @@ PerfectASIN's optimized title fixes this: "...80 Gummies (10 Individual Packs)" 
 
 ![PerfectASIN bullet points analysis highlighting the Mutlivitamins typo](/blog/images/bullets-typo.png)
 
-Bullet 2 contains the word "Mutlivitamins." That's not "Multivitamins" — it's a typo. In a health supplement listing. At a $33.99 price point.
+Bullet 2 contains the word "Mutlivitamins." That's not "Multivitamins"; it's a typo. In a health supplement listing. At a $33.99 price point.
 
 This isn't a cosmetic issue. For supplements, trust is everything. When a shopper is deciding whether to put something in their body and they see a misspelled word in the product description, it creates a micro-moment of doubt. "If they can't spell their product category correctly, how careful are they with their formulation?"
 
@@ -84,23 +84,23 @@ That means for the majority of Grüns' shoppers, the actual bullet point they se
 
 > A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methy...
 
-The key benefits — 60 organic ingredients, MTHFR compatibility, 6g fiber — are all buried below the fold. Invisible to mobile shoppers.
+The key benefits (60 organic ingredients, MTHFR compatibility, 6g fiber) are all buried below the fold. Invisible to mobile shoppers.
 
 PerfectASIN rewrote all 6 bullets to benefit-first format under 200 characters:
 
-**Before (Bullet 1 — 450+ characters):**
+**Before (Bullet 1, 450+ characters):**
 
 <blockquote class="bq-before">
 A MULTIVITAMIN THAT FILLS THE GAPS: Grüns Super Greens Gummy Bears are a carefully formulated methylated multivitamin with 60 potent organic ingredients such as whole fruits, veggies, super mushrooms, prebiotics and fiber, adaptogens, and more to offer effective nutrition in one product...
 </blockquote>
 
-**After (PerfectASIN optimized — under 200 characters):**
+**After (PerfectASIN optimized, under 200 characters):**
 
 <blockquote class="bq-after">
-STOP JUGGLING 10 SUPPLEMENTS: Grüns replaces your multivitamin, greens powder, fiber, and adaptogens with one delicious strawberry gummy bear — 60 organic superfoods in every serving
+STOP JUGGLING 10 SUPPLEMENTS: Grüns replaces your multivitamin, greens powder, fiber, and adaptogens with one delicious strawberry gummy bear, 60 organic superfoods in every serving
 </blockquote>
 
-![PerfectASIN optimized bullet points — benefit-first, under 200 characters](/blog/images/bullets-optimized.png)
+![PerfectASIN optimized bullet points: benefit-first, under 200 characters](/blog/images/bullets-optimized.png)
 
 Same information. Half the characters. Benefit first. Scannable on mobile.
 
@@ -112,7 +112,7 @@ Same information. Half the characters. Benefit first. Scannable on mobile.
 
 Grüns has 3.9 stars across 1,005 reviews. That's a significant review base, which is good. But 3.9 is below the 4.0 threshold where trust friction starts to measurably impact conversion, and well below the 4.3 mark where conversion rates see a meaningful step-up.
 
-With 1,005 reviews, the rating is entrenched — it's going to take a sustained effort to move it. Each 0.1-star improvement requires roughly 50-100 net-positive reviews.
+With 1,005 reviews, the rating is entrenched; it's going to take a sustained effort to move it. Each 0.1-star improvement requires roughly 50-100 net-positive reviews.
 
 PerfectASIN flags this as an "At Risk" status and recommends focusing on root cause analysis of recurring negative reviews rather than just chasing volume. At this review count, it's about fixing the problems customers are complaining about, not just asking for more reviews.
 
@@ -122,7 +122,7 @@ PerfectASIN flags this as an "At Risk" status and recommends focusing on root ca
 
 All 9 gallery images have zero alt text. The hero image's alt text is just a copy of the title (not a descriptive image-specific tag).
 
-Why does this matter? Amazon's Rufus AI — the conversational shopping assistant rolling out across the platform — increasingly uses image metadata to match products to natural-language queries. When a shopper asks Rufus "what's a good greens gummy that comes in individual packs," Rufus looks at image alt text, among other signals, to determine relevance.
+Why does this matter? Amazon's Rufus AI (the conversational shopping assistant rolling out across the platform) increasingly uses image metadata to match products to natural-language queries. When a shopper asks Rufus "what's a good greens gummy that comes in individual packs," Rufus looks at image alt text, among other signals, to determine relevance.
 
 With zero alt text, Grüns' 9 beautiful gallery images and 8 product videos are completely invisible to this system. They invested heavily in visual content and then made it unsearchable.
 
@@ -134,22 +134,22 @@ With zero alt text, Grüns' 9 beautiful gallery images and 8 product videos are 
 
 PerfectASIN generated a 6-item prioritized action plan with difficulty ratings and projected conversion lift for each fix:
 
-1. **Rewrite bullets** (Easy) — +15-20% conversion rate lift
-2. **Fix the title** (Easy) — +10-15% CTR improvement
-3. **Replace the description** (Easy) — +8-12% organic search visibility
-4. **Add alt text to images** (Medium) — +5-8% Rufus AI discoverability
-5. **Address the rating** (Hard) — +10-15% conversion if rating reaches 4.3+
-6. **Competitive price benchmarking** (Medium) — +10-20% conversion rate
+1. **Rewrite bullets** (Easy): +15-20% conversion rate lift
+2. **Fix the title** (Easy): +10-15% CTR improvement
+3. **Replace the description** (Easy): +8-12% organic search visibility
+4. **Add alt text to images** (Medium): +5-8% Rufus AI discoverability
+5. **Address the rating** (Hard): +10-15% conversion if rating reaches 4.3+
+6. **Competitive price benchmarking** (Medium): +10-20% conversion rate
 
-Even a very conservative 1–5% conversion lift at Grüns' current sales velocity (10,000+ units/month at $33.99) represents $3,400–$17,000/month in additional revenue — and well worth the investment. We've seen conversion lifts much higher, in the 15–25%+ range, which at this volume could mean $50,000–$85,000/month in recovered revenue.
+Even a very conservative 1–5% conversion lift at Grüns' current sales velocity (10,000+ units/month at $33.99) represents $3,400–$17,000/month in additional revenue, and well worth the investment. We've seen conversion lifts much higher, in the 15–25%+ range, which at this volume could mean $50,000–$85,000/month in recovered revenue.
 
-And the report includes ready-to-paste optimized content — title, all 6 bullets, and a full keyword-rich product description. Copy, paste, done.
+And the report includes ready-to-paste optimized content: title, all 6 bullets, and a full keyword-rich product description. Copy, paste, done.
 
 ---
 
 ## How This Works
 
-PerfectASIN is a Chrome extension that sits on top of Amazon product pages. Click a button, wait about 2 minutes, and get a 19-page branded audit report powered by Claude Opus — Anthropic's most advanced AI.
+PerfectASIN is a Chrome extension that sits on top of Amazon product pages. Click a button, wait about 2 minutes, and get a 19-page branded audit report powered by Claude Opus, Anthropic's most advanced AI.
 
 Every analysis is specific to the ASIN. No templates. No generic advice. Real scraping of the actual listing data, real scoring against Amazon best practices, and real optimized copy written for that specific product.
 
